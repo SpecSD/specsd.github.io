@@ -3,8 +3,6 @@
 ## FAQ
 
 ### Telepítés előfeltételek
-<details>
-<summary>Kinyit</summary>
 
 #### Böngészős változat
 
@@ -33,4 +31,3 @@ Ez a tapasztalatok alapján egyéb telepítést nem igényel, az apk, amit adunk
 
 Ilyet még nem generáltunk ki (nem feltétlenül van rá szükség, a böngészős változat ugyanúgy használható), de ha szükség lesz rá, akkor valószínűleg ugyanazt fogja igényelni, mint az addon alatt leírtak. Itt viszont - mivel ez közvetlenül SBO SDK-hoz nem csatlakozik, ezért lehet a 64 bites változat.
 
-</details>
