@@ -27,7 +27,7 @@ var qrcodemirwh = new QRCode(document.getElementById("qrcodemirwh"), {
 	width  : 100,
 	height : 100
 });
-var qrcodekhzteszt = new QRCode(document.getElementById("qrcodekhzteszt"), {
+var qrcodemirwhteszt = new QRCode(document.getElementById("qrcodemirwhteszt"), {
     text   : "https://SpecSD.github.io/download/com.spc.mirwhteszt.apk",
 	width  : 100,
 	height : 100
