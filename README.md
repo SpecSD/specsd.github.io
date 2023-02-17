@@ -13,6 +13,7 @@ Amihez csatlakozik, az egy IIS szerver lesz, ahol van frontendünk, meg backend�
 - Egyébként a jobb oldali runtime-ok közül a .Net runtime 6...-ot
 - Valószínűleg szükség lesz az ASP.NET Core Runtime 6...-ra
 - Ha di api van a backenden, akkor az 32bites lesz, ezért valószínűleg a 32bites változatot (is) telepíteni kell.
+- Az IIS-hez telepíteni kell az url-rewrite modult: https://www.iis.net/downloads/microsoft/url-rewrite
 
 #### Addon (winform)
 
@@ -30,4 +31,3 @@ Ez a tapasztalatok alapján egyéb telepítést nem igényel, az apk, amit adunk
 #### Windows (különálló, nem addon)
 
 Ilyet még nem generáltunk ki (nem feltétlenül van rá szükség, a böngészős változat ugyanúgy használható), de ha szükség lesz rá, akkor valószínűleg ugyanazt fogja igényelni, mint az addon alatt leírtak. Itt viszont - mivel ez közvetlenül SBO SDK-hoz nem csatlakozik, ezért lehet a 64 bites változat.
-
