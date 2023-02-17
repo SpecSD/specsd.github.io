@@ -215,7 +215,7 @@ Szeretnénk egy új árazós formot a minimál áras árlista áránál kisebb e
 A formon szeretnénk azokat az egyedi árakat (partnerenként, cikkenként)megjeleníteni és módosítani ami a minimál áras árlista(mindig a form elindítás napján érvényes minimál árat kell vizsgálni) áránál kisebb.
 
 A formon az alábbi szűrési lehetőségek legyenek:
-![ujar](uploads/01aea0a3b5776726173eb75239e49821/ujar.jpg)
+![ujar](../media/01aea0a3b5776726173eb75239e49821/ujar.jpg)
 
 A formon az alábbi oszlopok jelenjenek meg:
 partnerkód, partnernév, cikkszám, cikknév, me, egyedi ár dátuma –tól -ig(legyen írható), egyedi ár (legyen írható),3x checkbox, Árlista checkbox, beszerzési ár, engedmény%, Pénznem.
@@ -256,7 +256,7 @@ A jelenlegi formhoz hasonlót kellene felépíteni pár módosítással.
 A form elindítása után ne töltse be rögtön a több évnyi iktatott anyagot.
 
 Legyen egy beérkezés dátuma szerinti intervallum szűrő. Alapértemezettként ez legyen az elmút 30 nap (Pl: 2022.05.04-2022.06.03)
-![iktat](uploads/137de83be8093065cfa1f9ae5f0bbc4f/iktat.jpg)
+![iktat](../media/137de83be8093065cfa1f9ae5f0bbc4f/iktat.jpg)
 
 HG megjegyzés: Át kellene alakítani, hogy ne (csak?) a fejben legyen a típus (árubeérkezés, visszáru), hanem a tételben is. Így egyszerre több alapbizonylatot is hozzá lehet rendelni egy iktatáshoz. Természetesen előjelesen kellene megtenni.
 
@@ -274,7 +274,7 @@ A következő módosításokat kellene benne elkészíteni az eredeti formhoz k�
 A beforgatáskor jelenleg minden terméket a központi raktárra forgat be a rendszer. Az szeretnénk hogy ha a megjegyzés mezőbe szerepel `##12##` karakter sor akkor a partner alapértelmezett depója szerinti 12-es raktárra legyen beforgatva a tétel.
 
 Szeretnénk ha minden egyes cikk tétel meg lenne jelölve, hogy melyik platformról érkezett.
-![uk](uploads/30abce35bd97939bc009f9788ad02a7e/uk.jpg)
+![uk](../media/30abce35bd97939bc009f9788ad02a7e/uk.jpg)
 
 ### Megvalósítás
 
@@ -510,8 +510,8 @@ A régi és az új feladatok között lehessen léptetni/keresni.
 
 Szükségünk lenne egy olyan rendszerre, amibe a SAP-ban rögzített cikkszámokat bekeresve meg tudunk adni jó néhány paramétert, alternatív termékcsoport, tárolás, összetevők, márka, kép elérési útja,  stb. Például:
 
-![fejl13](uploads/44673aca01988b6121a6c124816faf44/fejl13.jpg)
-![fejl14](uploads/0aa2b907fd56b7cbabfd0fa70985b0e8/fejl14.jpg)
+![fejl13](../media/44673aca01988b6121a6c124816faf44/fejl13.jpg)
+![fejl14](../media/0aa2b907fd56b7cbabfd0fa70985b0e8/fejl14.jpg)
 
 Ez az új webshopunk feltöltéséhez kellene. 
 
@@ -665,7 +665,7 @@ A backend készítené el a karakteres riportot, temporális fájlba mentené é
 
 Két blokkból álljon, illetve egy szűrőfeltétel, gombsor részből. Ezt az ifsz-es formot kell kiváltania:
 
-![temp1](uploads/32760a2c6f2a24b5b671d03f98cf0ff8/temp1.jpg)
+![temp1](../media/32760a2c6f2a24b5b671d03f98cf0ff8/temp1.jpg)
 
 ### Szűrők, nyomógombok
 
@@ -716,7 +716,7 @@ Később...
 
 Egy blokkból álljon, illetve egy szűrőfeltétel mezőből, és egy gombból. Ezt az ifsz-es formot kell kiváltania:
 
-![temp1](uploads/7fc67f8dfc520ac69627bed13b4c759e/temp1.jpg)
+![temp1](../media/7fc67f8dfc520ac69627bed13b4c759e/temp1.jpg)
 
 ### Szűrő, nyomógomb
 
