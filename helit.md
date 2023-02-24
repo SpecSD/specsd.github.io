@@ -5,7 +5,7 @@
 
 ## NAV számlaletöltő
 
-[Funkcionális leírás](helit-navkomm.docs/verziok.md)
+[Verziók](helit-navkomm.docs/verziok.md)
 
 ### Letöltés
 
