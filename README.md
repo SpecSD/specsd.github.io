@@ -13,7 +13,8 @@ Amihez csatlakozik, az egy IIS szerver lesz, ahol van frontendünk, meg backend�
 - Egyébként a jobb oldali runtime-ok közül a .Net runtime 6...-ot
 - Valószínűleg szükség lesz az ASP.NET Core Runtime 6...-ra
 - Ha di api van a backenden, akkor az 32bites lesz, ezért valószínűleg a 32bites változatot (is) telepíteni kell.
-- Az IIS-hez telepíteni kell az url-rewrite modult: https://www.iis.net/downloads/microsoft/url-rewrite
+- Az IIS-hez telepíteni kell az [url-rewrite modult](https://www.iis.net/downloads/microsoft/url-rewrite)
+- Ha az IIS-ben elkészített site megnyitásakor 500 Server Error-t jelez, akkor még az [aspnetcore hosting bundle](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer)-t kell telepíteni.
 
 #### Addon (winform)
 
