@@ -5,7 +5,7 @@
 
 ## MirWH
 
-[Funkcionális leírás](mirwh.docs/verziok.md)
+[Verziók](mirwh.docs/verziok.md)
 
 ### Letöltés
 

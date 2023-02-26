@@ -1,4 +1,4 @@
-# SPC-MirWH funkcionális leírás
+# SPC-MirWH verziói
 
 - [v1.0.0.2](mirbesz-mirwh-dok.v1.0.0.2.md)
   - A fenti menüsávban most már elfér egy hosszabb felhasználónév is, nem borítja meg a főképernyőt.
