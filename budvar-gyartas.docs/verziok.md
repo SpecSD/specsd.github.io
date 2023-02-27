@@ -59,6 +59,9 @@
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.2.7  | Teszt backend  | 2023.02.27 |
+| 1.0.2.7  | Teszt frontend | 2023.02.27 |
+| 1.0.2.7  | Teszt AddOn    | 2023.02.27 |
 | 1.0.2.6  | Teszt backend | 2023.02.24 |
 | 1.0.2.6  | Teszt frontend | 2023.02.24 |
 | 1.0.2.6  | Teszt AddOn | 2023.02.24 |
