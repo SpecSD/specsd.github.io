@@ -42,6 +42,12 @@ v1.0.6.7: A 10.0.0.30-as szerveren a C:\spc\spc_addon_khz mappában található.
 <a href="download/com.spc.sofor.apk" download>SPCSofor v1.0.9.0 (JEGSBO2/KHAZ_PROD)</a>
 <div id="qrcodesofor" style="width:100px; height:100px; margin:25px;"></div>
 
+# IFSZ_AddOn_Kerhaz
+
+[Verziók](ifsz-IFSZ_AddOn_Kerhaz.docs/verziok.md)
+
+
+
 <br/><br/>
   
 <a href="download/com.spc.soforteszt.apk" download>SPCSoforTeszt v1.0.9.0 (JEGSBO2/TESZT_KHAZ_UJ)</a>
@@ -49,32 +55,32 @@ v1.0.6.7: A 10.0.0.30-as szerveren a C:\spc\spc_addon_khz mappában található.
 
 <script type="text/javascript">
 var qrcodekhz = new QRCode(document.getElementById("qrcodekhz"), {
-    text   : "https://humigeri.github.io/download/com.spc.khz.apk",
+    text   : "https://specsd.github.io/download/com.spc.khz.apk",
 	width  : 100,
 	height : 100
 });
 var qrcodekhzteszt = new QRCode(document.getElementById("qrcodekhzteszt"), {
-    text   : "https://humigeri.github.io/download/com.spc.khzteszt.apk",
+    text   : "https://specsd.github.io/download/com.spc.khzteszt.apk",
 	width  : 100,
 	height : 100
 });
 var qrcodesofor = new QRCode(document.getElementById("qrcodesofor"), {
-    text   : "https://humigeri.github.io/download/com.spc.sofor.apk",
+    text   : "https://specsd.github.io/download/com.spc.sofor.apk",
 	width  : 100,
 	height : 100
 });
 var qrcodesoforteszt = new QRCode(document.getElementById("qrcodesoforteszt"), {
-    text   : "https://humigeri.github.io/download/com.spc.soforteszt.apk",
+    text   : "https://specsd.github.io/download/com.spc.soforteszt.apk",
 	width  : 100,
 	height : 100
 });
 var qrcodekedvencar = new QRCode(document.getElementById("qrcodekedvencar"), {
-    text   : "https://humigeri.github.io/download/com.spc.khzegyediar.apk",
+    text   : "https://specsd.github.io/download/com.spc.khzegyediar.apk",
 	width  : 100,
 	height : 100
 });
 var qrcodekedvencarteszt = new QRCode(document.getElementById("qrcodekedvencarteszt"), {
-    text   : "https://humigeri.github.io/download/com.spc.khzegyediarteszt.apk",
+    text   : "https://specsd.github.io/download/com.spc.khzegyediarteszt.apk",
 	width  : 100,
 	height : 100
 });
