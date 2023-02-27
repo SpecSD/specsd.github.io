@@ -1,5 +1,9 @@
 # Gyártás verziók
 
+1.0.2.7:
+- Átadás gyártásba: ár gomb bug javítva
+- Gyártási csoportok: üres cikkszám esetén előforduló bug javítása
+
 1.0.2.6:
 - Hiba naplózás, működési biztonság javítása
 
