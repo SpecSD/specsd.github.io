@@ -53,6 +53,8 @@
     - Rendelés visszanyitása
     - Domain-ek kezelése
 
+- v1.0.11.1
+  - Már módosítás nélkül is tudunk sorokat az "ár módosítások" táblába beszúrni.
 - v1.0.11.0 - teszt
   - Minden, amit a v1.0.6.6-os verzió is tartalmaz, plusz:
   - Szám billentyűzet jöjjön fel az egységárnál androidon
@@ -87,6 +89,11 @@
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.11.1 | Éles egyedi ár modul apk | 2023.02.27 |
+| 1.0.11.1 | Teszt egyedi ár modul apk | 2023.02.27 |
+| 1.0.11.1 | Teszt frontend | 2023.02.27 |
+| 1.0.11.1 | Teszt backend | 2023.02.27 |
+| 1.0.11.1 | Árazáshoz éles backend | 2023.02.27 |
 | 1.0.6.8  | Éles backend | 2023.02.16 |
 | 1.0.6.8  | Éles frontend | 2023.02.16 |
 | 1.0.11.0 | Teszt frontend | 2023.02.06 |

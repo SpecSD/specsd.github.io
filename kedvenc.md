@@ -23,12 +23,12 @@ v1.0.6.7: A 10.0.0.30-as szerveren a C:\spc\spc_addon_khz mappában található.
   
 ### Kedvenc Egyedi ár modul (KHZ-ből készült, csak ármodulos menüpontokkal)
 
-<a href="download/com.spc.khzkedvencar.apk" download>SPCKedvencAr v1.0.0.11 (JEGSBO2/KHAZ_PROD)</a>
+<a href="download/com.spc.khzegyediar.apk" download>SPCKhzEgyediAr v1.0.11.1 (JEGSBO2/KHAZ_PROD)</a>
 <div id="qrcodekedvencar" style="width:100px; height:100px; margin:25px;"></div>
 
 <br/><br/>
   
-<a href="download/com.spc.khzkedvencarteszt.apk" download>SPCKedvencArTeszt v1.0.0.11 (JEGSBO2/TESZT_KHAZ_UJ)</a>
+<a href="download/com.spc.khzegyediarteszt.apk" download>SPCKhzEgyediArTeszt v1.0.11.1 (JEGSBO2/TESZT_KHAZ_UJ)</a>
 <div id="qrcodekedvencarteszt" style="width:100px; height:100px; margin:25px;"></div>
 
 <br/><br/>
@@ -49,32 +49,32 @@ v1.0.6.7: A 10.0.0.30-as szerveren a C:\spc\spc_addon_khz mappában található.
 
 <script type="text/javascript">
 var qrcodekhz = new QRCode(document.getElementById("qrcodekhz"), {
-    text   : "https://humigeri.github.io/download/com.spc.khzv5.apk",
+    text   : "https://humigeri.github.io/download/com.spc.khz.apk",
 	width  : 100,
 	height : 100
 });
 var qrcodekhzteszt = new QRCode(document.getElementById("qrcodekhzteszt"), {
-    text   : "https://humigeri.github.io/download/com.spc.khztesztv7.apk",
+    text   : "https://humigeri.github.io/download/com.spc.khzteszt.apk",
 	width  : 100,
 	height : 100
 });
 var qrcodesofor = new QRCode(document.getElementById("qrcodesofor"), {
-    text   : "https://humigeri.github.io/download/com.spc.soforv9.apk",
+    text   : "https://humigeri.github.io/download/com.spc.sofor.apk",
 	width  : 100,
 	height : 100
 });
 var qrcodesoforteszt = new QRCode(document.getElementById("qrcodesoforteszt"), {
-    text   : "https://humigeri.github.io/download/com.spc.sofortesztv9.apk",
+    text   : "https://humigeri.github.io/download/com.spc.soforteszt.apk",
 	width  : 100,
 	height : 100
 });
 var qrcodekedvencar = new QRCode(document.getElementById("qrcodekedvencar"), {
-    text   : "https://humigeri.github.io/download/com.spc.khzkedvencarv11.apk",
+    text   : "https://humigeri.github.io/download/com.spc.khzegyediar.apk",
 	width  : 100,
 	height : 100
 });
 var qrcodekedvencarteszt = new QRCode(document.getElementById("qrcodekedvencarteszt"), {
-    text   : "https://humigeri.github.io/download/com.spc.khzkedvencartesztv11.apk",
+    text   : "https://humigeri.github.io/download/com.spc.khzegyediarteszt.apk",
 	width  : 100,
 	height : 100
 });
