@@ -1,5 +1,8 @@
 # Gyártás verziók
 
+1.0.3.1:
+- Új cikk felvételénél hiba javítása
+
 [1.0.3.0](budvar-gyartas.docs-dok.v1.0.3.0.md):
 - Élesítés
 
