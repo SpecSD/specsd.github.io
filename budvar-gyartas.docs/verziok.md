@@ -1,5 +1,11 @@
 # Gyártás verziók
 
+[1.0.3.0](budvar-gyartas.docs-dok.v1.0.3.0.md):
+- Élesítés
+
+1.0.2.8:
+- Gyártás_teljes_teszt_20230227_JAV.docx-ben leírtak javítása
+
 1.0.2.7:
 - Átadás gyártásba: ár gomb bug javítva
 - Gyártási csoportok: üres cikkszám esetén előforduló bug javítása
@@ -51,14 +57,26 @@
 
 | Végpont | Leírás |
 |:--------|:-------|
+| Éles backend | Útvonal: \\\\10.0.0.30\\d$\\spc\\iis\\SPCGyartas_backend IIS: http://10.0.0.30:4101 Db: 10.0.0.53/BU_2020_PROD |
+| Éles frontend | Útvonal: \\\\10.0.0.30\\d$\\spc\\iis\\SPCGyartas_frontend IIS: http://10.0.0.30:7101 Db: 10.0.0.53/BU_2020_PROD |
+| Éles AddOn | - |
+| Éles cikk interfész | Útvonal: \\\\10.0.0.30\\d$\\spc\\gyartas-int-prod Db: 10.0.0.53/BU_2020_PROD |
 | Teszt backend | Útvonal: \\\\10.0.0.30\\d$\\spc\\iis\\SPCGyartasTeszt_backend IIS: http://10.0.0.30:4100 Db: 10.0.0.51/BU_2020_TESZT |
 | Teszt frontend | Útvonal: \\\\10.0.0.30\\d$\\spc\\iis\\SPCGyartasTeszt_frontend IIS: http://10.0.0.30:7100 Db: 10.0.0.51/BU_2020_TESZT |
 | Teszt AddOn | - |
+| Teszt cikk interfész | Útvonal: \\\\10.0.0.30\\d$\\spc\\gyartas-int-teszt Db: 10.0.0.51/BU_2020_TESZT |
   
 ## Telepítési napló
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.3.0  | Éles backend        | 2023.02.28 |
+| 1.0.3.0  | Éles frontend       | 2023.02.28 |
+| 1.0.3.0  | Éles AddOn          | 2023.02.28 |
+| 1.0.3.0  | Éles cikk interfész | 2023.02.28 |
+| 1.0.2.8  | Teszt backend  | 2023.02.28 |
+| 1.0.2.8  | Teszt frontend | 2023.02.28 |
+| 1.0.2.8  | Teszt AddOn    | 2023.02.28 |
 | 1.0.2.7  | Teszt backend  | 2023.02.27 |
 | 1.0.2.7  | Teszt frontend | 2023.02.27 |
 | 1.0.2.7  | Teszt AddOn    | 2023.02.27 |
