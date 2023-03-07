@@ -1,6 +1,8 @@
-# SPCKhz verziók
+Éles verzió: [v1.0.6.8](#v1.0.6.8)
 
-- [v1.0.6.8 - éles](kedvenc-khz-dok.v1.0.6.8.md)
+Teszt verzió: [v1.0.12.0](#v1.0.12.0)
+
+- [v1.0.6.8 - éles](kedvenc-khz-dok.v1.0.6.8.md)<a href="v1.0.6.8"></a>
   - Az üzleti partnerek módosítása form egyben lockolta a teljes folyamatot, ami több percig is tarthatott. Ez alatt más nem tudott SPCKhz-ből bizonylatot generálni. (Pl. iktatás)
   Most lépésenként lockol, ezért párhuzamosan, egymás mellett működni tudnak, nem kell megvárnia az összes partner módosítást, két partner módosítása között is megtörténhet egy iktatás.
   - 676/2020 megjegyzés módosítása a szállítólevélen az új kérésnek megfelelően (2023.02.02-i levél)
@@ -53,8 +55,20 @@
     - Rendelés visszanyitása
     - Domain-ek kezelése
 
-- v1.0.11.1
+- [v1.0.12.0 - teszt](kedvenc-khz-dok.v1.0.12.0.md)<a href="v1.0.12.0"></a>
+  - A NAV-tól betöltött bejövő számlákra készült egy megtekintő felület.
+  - Az üzletkötői rendelések beforgatása a bizonylatfej felhasználói mezőjébe írja a tényleges felhasználó kódját. (U_FELHASZNALO. Technikailag a manager által jön létre a bizonylat, ezért nem lehetett tudni, ki hozta létre valójában.)
+  - Az Email iktatások felületen most már megjelenítjük az "Aktuális összeg" mezőben fizetési felszólítás esetén az aznap lejáró összeget. (Ami eltérhet a teljes tartozás összegétől, mert korábbi tartozásai is lehetnek a partnernek.)
+  - Az üzletkötői rendelések beforgatása formon a törlés gomb középre, olyan helyre került, ahol kisebb eséllyel lehet véletlenül megnyomni.
+  - Telesales fejlesztés
+    - Hívólista (hívólista összeállítása, sablonok betöltése)
+	- Napi hívólista (Telefonhívás, tevékenység indítás a megadott hívólista alapján)
+- v1.0.11.1 - teszt
   - Már módosítás nélkül is tudunk sorokat az "ár módosítások" táblába beszúrni.
+  - Ügyvédi felszólitás menüpont - kinnlevőség IV-es ütem
+    - Nyomtatási kép készítése, adminisztrációs díj számla generálása még hiányzik.
+  - Az üzleti partnerek módosítása felületen egy progressbar mutatja a folyamat állapotát - nem fut időtúllépés hibára.
+  - Az üzletkötői beforgatás olyankor nem találta meg a vevő korábbi SAP-s rendelését, ha egy menetben lett feldolgozva a vevő két külön rendelése. (1.0.6.8-ban történt változtatás)
 - v1.0.11.0 - teszt
   - Minden, amit a v1.0.6.6-os verzió is tartalmaz, plusz:
   - Szám billentyűzet jöjjön fel az egységárnál androidon
@@ -89,6 +103,8 @@
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.12.0 | Teszt frontend | 2023.03.07 |
+| 1.0.12.0 | Teszt backend  | 2023.03.07 |
 | 1.0.11.1 | Éles egyedi ár modul apk | 2023.02.27 |
 | 1.0.11.1 | Teszt egyedi ár modul apk | 2023.02.27 |
 | 1.0.11.1 | Teszt frontend | 2023.02.27 |
