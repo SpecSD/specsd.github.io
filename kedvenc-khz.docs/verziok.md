@@ -2,7 +2,7 @@
 
 Teszt verzió: [v1.0.12.0](#v1.0.12.0)
 
-- [v1.0.6.8 - éles](kedvenc-khz-dok.v1.0.6.8.md)<a href="#v1.0.6.8"></a>
+- [v1.0.6.8 - éles](kedvenc-khz-dok.v1.0.6.8.md)<a name="v1.0.6.8"></a>
   - Az üzleti partnerek módosítása form egyben lockolta a teljes folyamatot, ami több percig is tarthatott. Ez alatt más nem tudott SPCKhz-ből bizonylatot generálni. (Pl. iktatás)
   Most lépésenként lockol, ezért párhuzamosan, egymás mellett működni tudnak, nem kell megvárnia az összes partner módosítást, két partner módosítása között is megtörténhet egy iktatás.
   - 676/2020 megjegyzés módosítása a szállítólevélen az új kérésnek megfelelően (2023.02.02-i levél)
@@ -55,7 +55,7 @@ Teszt verzió: [v1.0.12.0](#v1.0.12.0)
     - Rendelés visszanyitása
     - Domain-ek kezelése
 
-- [v1.0.12.0 - teszt](kedvenc-khz-dok.v1.0.12.0.md)<a href="#v1.0.12.0"></a>
+- [v1.0.12.0 - teszt](kedvenc-khz-dok.v1.0.12.0.md)<a name="v1.0.12.0"></a>
   - A NAV-tól betöltött bejövő számlákra készült egy megtekintő felület.
   - Az üzletkötői rendelések beforgatása a bizonylatfej felhasználói mezőjébe írja a tényleges felhasználó kódját. (U_FELHASZNALO. Technikailag a manager által jön létre a bizonylat, ezért nem lehetett tudni, ki hozta létre valójában.)
   - Az Email iktatások felületen most már megjelenítjük az "Aktuális összeg" mezőben fizetési felszólítás esetén az aznap lejáró összeget. (Ami eltérhet a teljes tartozás összegétől, mert korábbi tartozásai is lehetnek a partnernek.)
