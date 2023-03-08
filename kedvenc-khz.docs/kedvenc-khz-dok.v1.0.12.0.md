@@ -41,7 +41,7 @@ Ennek a vevőnek egy teljes kinnlevőség listát készít a program. Ebből a l
 A következő feltételek érvényesülnek még:
 - Arra az email címre történik a küldés, ami az üzleti partner "PÉNZÜGY..." azonosítóval elnevezett tárgyalópartnerénél meg van adva. Ha több ilyen is van, akkor mindegyik ilyen email címre elküldi. Ha egyáltalán nincs ilyen, akkor nem küld levelet.
 - Azoknak a partnereknek nem küld levelet, akinél a 47.tulajdonság, a "Kinnlévőségkezelés - email küldés kivétel" be van pipálva.
-- Csak azoknak a partnereknek nem küld levelet, akinél a 48.tulajdonság, a "ASZF" be van pipálva!
+- Csak azoknak a partnereknek küld levelet, akinél a 48.tulajdonság, a "ASZF" be van pipálva!
 - Azoknak a partnereknek nem küld levelet, akinél a 62.tulajdonság, a "Ügyvédi eljárás" be van pipálva.
 - Azoknak a partnereknek nem küld levelet, akinél a 63.tulajdonság, a "Részletfizetési megállapodás" be van pipálva.
 - Csak akkor küld fizetési felszólítást, ha az adott napon 3. napja lejáró számlán (vagy számlákon) a tartozás pozitív.
@@ -64,7 +64,7 @@ Ennek a vevőnek egy teljes kinnlevőség listát készít a program. Ebből a l
 A következő feltételek érvényesülnek még:
 - Arra az email címre történik a küldés, ami az üzleti partner "PÉNZÜGY..." azonosítóval elnevezett tárgyalópartnerénél meg van adva. Ha több ilyen is van, akkor mindegyik ilyen email címre elküldi. Ha egyáltalán nincs ilyen, akkor nem küld levelet.
 - Azoknak a partnereknek nem küld levelet, akinél a 47.tulajdonság, a "Kinnlévőségkezelés - email küldés kivétel" be van pipálva.
-- Csak azoknak a partnereknek nem küld levelet, akinél a 48.tulajdonság, a "ASZF" be van pipálva!
+- Csak azoknak a partnereknek küld levelet, akinél a 48.tulajdonság, a "ASZF" be van pipálva!
 - Azoknak a partnereknek nem küld levelet, akinél a 62.tulajdonság, a "Ügyvédi eljárás" be van pipálva.
 - Azoknak a partnereknek nem küld levelet, akinél a 63.tulajdonság, a "Részletfizetési megállapodás" be van pipálva.
 - Csak akkor küld fizetési felszólítást, ha az adott napon 12. napja lejáró számlán (vagy számlákon) a tartozás nagyobb, mint 500Ft.
