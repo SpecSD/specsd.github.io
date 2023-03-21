@@ -1,5 +1,10 @@
 # SPC-MirWH verziói
 
+- [v1.0.0.3](mirbesz-mirwh-dok.v1.0.0.3.md)
+  - Bontásra komissió menüpont működőképes
+  - Bontás menüpont működőképes
+  - Kiszedés menüpont működőképes
+
 - [v1.0.0.2](mirbesz-mirwh-dok.v1.0.0.2.md)
   - A fenti menüsávban most már elfér egy hosszabb felhasználónév is, nem borítja meg a főképernyőt.
   - Hogy több hely maradjon, a felső menüsáv is eltűnik a menüpontok kiválasztásánál. Balról jobbra söpréssel hozható vissza az oldalmenüvel együtt.
