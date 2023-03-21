@@ -9,12 +9,12 @@
 
 ### Letöltés
 
-<a href="download/com.spc.mirwh.apk" download>SPCMirWH v1.0.0.2 (10.10.10.34/MIRBESZ_PROD)</a>
+<a href="download/com.spc.mirwh.apk" download>SPCMirWH v-.-.-.- (10.10.10.34/MIRBESZ_PROD)</a>
 <div id="qrcodemirwh" style="width:100px; height:100px; margin:25px;"></div>
 
 <br/><br/>
 
-<a href="download/com.spc.mirwhteszt.apk" download>SPCMirWH TESZT v1.0.0.2 (10.10.10.34/TESZT_MB_20220511)</a>
+<a href="download/com.spc.mirwhteszt.apk" download>SPCMirWH TESZT v1.0.0.3 (10.10.10.34/TESZT_MB_20220511)</a>
 <div id="qrcodemirwhteszt" style="width:100px; height:100px; margin:25px;"></div>
 
 <br/><br/>
