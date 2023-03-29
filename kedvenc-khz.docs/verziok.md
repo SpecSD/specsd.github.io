@@ -1,6 +1,6 @@
 Éles verzió: [v1.0.6.8](#v1.0.6.8)
 
-Teszt verzió: [v1.0.12.0](#v1.0.12.0)
+Teszt verzió: [v1.0.12.1](#v1.0.12.1)
 
 - [v1.0.6.8 - éles](kedvenc-khz-dok.v1.0.6.8.md)<a name="v1.0.6.8"></a>
   - Az üzleti partnerek módosítása form egyben lockolta a teljes folyamatot, ami több percig is tarthatott. Ez alatt más nem tudott SPCKhz-ből bizonylatot generálni. (Pl. iktatás)
@@ -55,6 +55,11 @@ Teszt verzió: [v1.0.12.0](#v1.0.12.0)
     - Rendelés visszanyitása
     - Domain-ek kezelése
 
+- v1.0.12.1 - teszt<a name="v1.0.12.1"></a>
+  - Egyedi ár menüpont:
+    - Beszerzési ár már nem látható
+    - Cikk értéklista nem hozza az olyan cikkeket, amikre jelenleg már van valamilyen egyedi ára a partnernek.
+    - Minimál ár alatti ár esetén felmerült hibaüzenet javítása.
 - [v1.0.12.0 - teszt](kedvenc-khz-dok.v1.0.12.0.md)<a name="v1.0.12.0"></a>
   - A NAV-tól betöltött bejövő számlákra készült egy megtekintő felület.
   - Az üzletkötői rendelések beforgatása a bizonylatfej felhasználói mezőjébe írja a tényleges felhasználó kódját. (U_FELHASZNALO. Technikailag a manager által jön létre a bizonylat, ezért nem lehetett tudni, ki hozta létre valójában.)
@@ -103,6 +108,8 @@ Teszt verzió: [v1.0.12.0](#v1.0.12.0)
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.12.1 | Teszt frontend | 2023.03.29 |
+| 1.0.12.1 | Teszt backend  | 2023.03.29 |
 | 1.0.12.0 | Teszt frontend | 2023.03.07 |
 | 1.0.12.0 | Teszt backend  | 2023.03.07 |
 | 1.0.11.1 | Éles egyedi ár modul apk | 2023.02.27 |
