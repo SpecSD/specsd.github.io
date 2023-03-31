@@ -1,5 +1,12 @@
 # SPC-MirWH verziói
 
+- [v1.0.0.4](mirbesz-mirwh-dok.v1.0.0.4.md)
+  - "Bontásra" komissiózás" és "Bontás" menüpontokban a felugró dialógus ablakokon a raklap azonosító újbóli lelövése egyenértékű az "OK" gomb megnyomásával
+    - "Bontásra" komissiózás": Tárhely, majd raklap lelövése után feljövő ablakon
+    - "Bontás": A feltöltendő raklap lelövésére és a komissiózandó raklap lelövésére feljövő ablakon
+  - Raklap képernyő:
+    - Egyes mezőkre rákattintáskor annak teljes tartalma kijelölődik, hogy visszatörlés nélkül lehessen az egészet javítani, átírni. (Lejárati dátum, karton, egység db, oválbélyegző, bruttó súly)
+    - Nem egalizált cikk esetén az összes súly számolás hibára futott (object reference not set...)
 - [v1.0.0.3](mirbesz-mirwh-dok.v1.0.0.3.md)
   - Bontásra komissió menüpont működőképes
   - Bontás menüpont működőképes
