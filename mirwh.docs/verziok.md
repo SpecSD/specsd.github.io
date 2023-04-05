@@ -1,5 +1,12 @@
 # SPC-MirWH verziói
 
+- [v1.0.0.5](mirbesz-mirwh-dok.v1.0.0.5.md)
+  - "Kocsira pakol" menüpont elkészült.
+  - Árubeerkezés: Ha kiválaszottunk egy cikket, majd elkészítettünk egy raklapot, amikor visszatérünk innen, akkor továbbra is a korábban kijelölt cikk marad kijelölve.
+  - Bontásra komissió funkció: A tárhely és raklap mezők kicsit szélesebbek
+  - Raklap: mentés és törlés gomb cseréje
+  - Nem egalizált raklap első mentésekor elszállt a program.
+  - Elszállás utáni "reload" után a felső menüsáv újra megjelent, ezzel felborítva a képernyő többi arányait.
 - [v1.0.0.4](mirbesz-mirwh-dok.v1.0.0.4.md)
   - "Bontásra" komissiózás" és "Bontás" menüpontokban a felugró dialógus ablakokon a raklap azonosító újbóli lelövése egyenértékű az "OK" gomb megnyomásával
     - "Bontásra" komissiózás": Tárhely, majd raklap lelövése után feljövő ablakon
