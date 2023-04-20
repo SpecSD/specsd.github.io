@@ -1,5 +1,9 @@
 # SPC-MirWH verziói
 
+- [v1.0.0.6](mirbesz-mirwh-dok.v1.0.0.6.md)
+  - Bontás menüpont: A legördülő menüben a partner neve jelenjen meg, ne a kitárolási javaslat megjegyzése. (Az kiválasztás után alul látható.)
+  - Raklapbontás a raklap karbantartó formon - javítások.
+  - Leltározás menüpont
 - [v1.0.0.5](mirbesz-mirwh-dok.v1.0.0.5.md)
   - "Kocsira pakol" menüpont elkészült.
   - Árubeerkezés: Ha kiválaszottunk egy cikket, majd elkészítettünk egy raklapot, amikor visszatérünk innen, akkor továbbra is a korábban kijelölt cikk marad kijelölve.
