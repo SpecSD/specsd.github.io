@@ -99,7 +99,7 @@ Teszt verzió: [v1.0.12.1](#v1.0.12.1)
 | Éles egyedi ár modul apk | [Letölthető](../kedvenc.md) |
 | Teszt backend | Útvonal: \\\\192.168.20.162\\c$\\spc\\khz_teszt_backend IIS: http://192.168.20.162:4009 Db: JEGSBO2/TESZT_KHAZ_UJ |
 | Teszt frontend | Útvonal: \\\\192.168.20.162\\c$\\spc\\khz_teszt_frontend IIS: https://192.168.20.162:7079 |
-| Teszt AddOn | - |
+| Teszt AddOn | Útvonal: \\\\192.168.20.162\\c$\\spc\\spc_addon_khz_teszt Addon neve: TESZTspc_addon_khz |
 | Teszt android apk | [Letölthető](../kedvenc.md) |
 | Teszt egyedi ár modul apk | [Letölthető](../kedvenc.md) |
 | Árazáshoz éles backend | Útvonal: \\\\192.168.20.162\\c$\\spc\\kedvencar_eles_backend IIS: http://192.168.20.162:4103 Db: JEGSBO2/KHAZ_PROD (Mivel élesben lehet csak tesztelni, viszont az éles backendet nem lehet jelenleg felülvágni) |
@@ -108,6 +108,8 @@ Teszt verzió: [v1.0.12.1](#v1.0.12.1)
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.12.1 | Teszt AddOn | 2023.05.02 |
+| 1.0.12.1 | Árazáshoz éles backend (teszt addonnal való használathoz) | 2023.05.02 |
 | 1.0.12.1 | Teszt frontend | 2023.03.29 |
 | 1.0.12.1 | Teszt backend  | 2023.03.29 |
 | 1.0.12.0 | Teszt frontend | 2023.03.07 |
