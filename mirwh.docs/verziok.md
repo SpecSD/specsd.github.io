@@ -1,5 +1,17 @@
 # SPC-MirWH verziói
 
+- v1.0.0.7
+  - Bontás után részben foglalt maradt a raklap, hiába futott ki 0-ra a foglaltság
+  - Kocsira pakolás androidon az első rendszám kiválasztás (szállítólevél inicializálás) után nem váltott át valójában a megfelelő sorra abban a blokkban, így nem lehetett rátenni.
+  - Leltározás során a mennyiség egy időre felvillant, csak később ürítődött.
+  - Mozgások és a bontási események naplózása most már megtörténik.
+  - Raklap karbantartó:
+    - Egalizált cikknél ne adhasson meg kartonsúlyokat.
+    - Nem egalizáltnál rákérdezzünk, ha nem annyi kartont hozott létre, mint a kartonszám.
+    - A nettó és bruttó súly eltérésre rákérdez, kevesebbet nem is enged létrehozni.
+  - Tárhely cikkei: Logikai tárhelyre váltás a raklap lelövése esetén nem működött.
+  - Nem egalizált mentése esetén hibára futott.
+  - Kiszedési javaslaton nem jöttek azok a javaslatok, amik vegyesen több teremből szednek.
 - [v1.0.0.6](mirbesz-mirwh-dok.v1.0.0.6.md)
   - Bontás menüpont: A legördülő menüben a partner neve jelenjen meg, ne a kitárolási javaslat megjegyzése. (Az kiválasztás után alul látható.)
   - Raklapbontás a raklap karbantartó formon - javítások.
