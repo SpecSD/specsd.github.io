@@ -1,6 +1,6 @@
 Éles verzió: [v1.0.6.8](#v1.0.6.8)
 
-Teszt verzió: [v1.0.12.1](#v1.0.12.1)
+Teszt verzió: [v1.0.12.2](#v1.0.12.2)
 
 - [v1.0.6.8 - éles](kedvenc-khz-dok.v1.0.6.8.md)<a name="v1.0.6.8"></a>
   - Az üzleti partnerek módosítása form egyben lockolta a teljes folyamatot, ami több percig is tarthatott. Ez alatt más nem tudott SPCKhz-ből bizonylatot generálni. (Pl. iktatás)
@@ -55,6 +55,27 @@ Teszt verzió: [v1.0.12.1](#v1.0.12.1)
     - Rendelés visszanyitása
     - Domain-ek kezelése
 
+- [v1.0.12.2](kedvenc-khz-dok.v1.0.12.2.md) - teszt<a name="v1.0.12.2"></a>
+  - Menüpontok átalakítása, csoportosítása
+  - Új funkció: Rendelés leosztás form
+  - Új funkció: Raktári leosztás formok
+    - Gyöngyös szállítólevél rendelés
+	- Bp. szállítólevél rendelés
+	- Kecskemét szállítólevél rendelés
+	- Kimérős leosztás
+  - Új funkció: Különszedős beállítása form
+  - Egyedi ár fejlesztés:
+    - Cikk értéklista hozza azokat a cikkeket is, amire már volt egyedi ára a partnernek, de lejárt
+    - Ha a partner kiválasztásnál megnyomjuk a mégse gombot a felugró ablakon, akkor nem kapunk hibát.
+    - Form kinézetének javítása
+    - Alapértelmezetten már a sorok holnapi dátum értékkel jönnek létre; hibajelzést adunk, ha a dátumtól mező értéke nagyobb mint a mai nap.
+    - Engedélyezésre átadás üzenetküldése hibára futott korábban
+  - Napi zárás "feldolgozás" gombja végrehajtja a rendelés zárását
+  - Telesales hívólista látványos naptár nézetben (Kanban nézet) is meg tudja mutatni a teendőket.
+  - Adminisztratív funkciók:
+    - Ütemezési szintek, csoportok, email beállítások, címzettek hozzárendelése
+	- Szerepek, jogosultságkezelés
+	- Naptár karbantartó
 - v1.0.12.1 - teszt<a name="v1.0.12.1"></a>
   - Egyedi ár menüpont:
     - Beszerzési ár már nem látható
@@ -108,6 +129,9 @@ Teszt verzió: [v1.0.12.1](#v1.0.12.1)
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.12.2 | Árazáshoz éles backend | 2023.05.09 |
+| 1.0.12.2 | Teszt frontend | 2023.05.09 |
+| 1.0.12.2 | Teszt backend  | 2023.05.09 |
 | 1.0.12.1 | Éles egyedi ár modul apk | 2023.05.04 |
 | 1.0.12.1 | Teszt egyedi ár modul apk | 2023.05.04 |
 | 1.0.12.1 | Teszt AddOn | 2023.05.02 |
