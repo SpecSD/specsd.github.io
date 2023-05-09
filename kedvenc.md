@@ -25,12 +25,12 @@ Teszt változat: v1.0.12.2.
   
 ### Kedvenc Egyedi ár modul (KHZ-ből készült, csak ármodulos menüpontokkal)
 
-<a href="download/com.spc.khzegyediar.apk" download>SPCKhzEgyediAr v1.0.12.1 (JEGSBO2/KHAZ_PROD)</a>
+<a href="download/com.spc.khzegyediar.apk" download>SPCKhzEgyediAr v1.0.12.2 (JEGSBO2/KHAZ_PROD)</a>
 <div id="qrcodekedvencar" style="width:100px; height:100px; margin:25px;"></div>
 
 <br/><br/>
   
-<a href="download/com.spc.khzegyediarteszt.apk" download>SPCKhzEgyediArTeszt v1.0.12.1 (JEGSBO2/TESZT_KHAZ_UJ)</a>
+<a href="download/com.spc.khzegyediarteszt.apk" download>SPCKhzEgyediArTeszt v1.0.12.2 (JEGSBO2/TESZT_KHAZ_UJ)</a>
 <div id="qrcodekedvencarteszt" style="width:100px; height:100px; margin:25px;"></div>
 
 <br/><br/>
