@@ -129,6 +129,8 @@ Teszt verzió: [v1.0.12.2](#v1.0.12.2)
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.12.2 | Éles egyedi ár modul apk  | 2023.05.09 |
+| 1.0.12.2 | Teszt egyedi ár modul apk | 2023.05.09 |
 | 1.0.12.2 | Árazáshoz éles backend | 2023.05.09 |
 | 1.0.12.2 | Teszt frontend | 2023.05.09 |
 | 1.0.12.2 | Teszt backend  | 2023.05.09 |
