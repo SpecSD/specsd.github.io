@@ -1,5 +1,14 @@
 # SPC-MirWH verziói
 
+- v1.0.0.10
+  - Kocsira pakolás javítások:
+    - Ha nem volt szállítási címe a kitárolási javaslatnak (visszáru), akkor hibára futott, nem lehetett elindítani a pakolást.
+    - A középső rész elrendezése javítva, a rendszám legördülő a bal oldalon mindig felül van, függetlenül a jobb oldali rendszám lista magasságától (az görgethető).
+    - A fellőtt raklapok fellövés csökkenő sorrendjében jelennek meg.
+- v1.0.0.9
+  - Raklap és kitárolási javaslat összekötési hiba javítása
+- v1.0.0.8
+  - Naplózás javítása, amikor még nem volt korábbi mozgása a raklapnak
 - v1.0.0.7
   - Bontás után részben foglalt maradt a raklap, hiába futott ki 0-ra a foglaltság
   - Kocsira pakolás androidon az első rendszám kiválasztás (szállítólevél inicializálás) után nem váltott át valójában a megfelelő sorra abban a blokkban, így nem lehetett rátenni.
