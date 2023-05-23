@@ -1,5 +1,7 @@
 # SPC-MirWH verziói
 
+- v1.0.0.11
+  - Raklapra bontás javítása
 - v1.0.0.10
   - Kocsira pakolás javítások:
     - Ha nem volt szállítási címe a kitárolási javaslatnak (visszáru), akkor hibára futott, nem lehetett elindítani a pakolást.
