@@ -9,7 +9,7 @@
 
 v1.0.6.8: A 10.0.0.30-as szerveren a C:\spc\spc_addon_khz mappában található.
 
-Teszt változat: v1.0.12.2.
+Teszt változat: v1.0.12.3.
 
 ## SpcKhz androidos változatai
 
