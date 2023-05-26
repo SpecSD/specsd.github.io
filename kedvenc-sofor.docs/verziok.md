@@ -1,6 +1,13 @@
 # SPCSofor verziók
 
-- [v1.0.9.2 - éles](kedvenc-sofor-dok.v1.0.9.2.md)
+- v1.0.10.0 - teszt
+  - Adatbázis kapcsolati hiba miatt ritkán előfordul, hogy a bizonylat fejet letölti, de a tételeit nem. Ezentúl ha ilyen történik, a következő megnyitásnál újra megpróbálja letölteni a tételeket.
+  - Véglegesítéskor automatikusan kiküldi a pdf-et emailben - amennyiben be van állítva a vevő email címe.
+  - A bizonylat megtekintőből a "<-" gomb mindig a nyitott bizonylatok listájára lépett vissza. Most ha a zárt listából érkeztünk, akkor oda is lép vissza.
+  - A  nyomógombok új, szebb kinézetet kaptak.
+  - A "Véglegesít" nyomógomb csak részben inaktiválódik, ha már megtörtént a bizonylat véglegesítése. Az alap kék szín helyett sötétszürke hátteret kap. Ha erre duplán kattintunk, akkor a nyomtatási kép generálása újra megtörténik.
+    Erre azért volt szükség, mert időnként az elkészült bizonylat üres, tartalom nélkül készül el. Ha ilyet tapasztalunk, a duplaklikkeléssel újra tudjuk generáltatni a nyomtatási képet - második alkalommal már minden bizonnyal jó eredményt kapunk.
+- v1.0.9.2 - éles
   - A feldolgozva státuszt nem lehet módosítani a képernyőről történő aktualizálással. (Ha esetleg képernyőn maradna megnyitva egy korábbi állapot.)
   - Párhuzamos folyamatok kezelésének fejlesztése, ne akadhassanak össze egymással.
 - v1.0.9.1 - éles

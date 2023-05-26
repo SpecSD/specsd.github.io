@@ -52,7 +52,7 @@ Teszt változat: v1.0.12.3.
 
 <br/><br/>
   
-<a href="download/com.spc.soforteszt.apk" download>SPCSoforTeszt v1.0.9.0 (JEGSBO2/TESZT_KHAZ_UJ)</a>
+<a href="download/com.spc.soforteszt.apk" download>SPCSoforTeszt v1.0.10.0 (JEGSBO2/TESZT_KHAZ_UJ)</a>
 <div id="qrcodesoforteszt" style="width:100px; height:100px; margin:25px;"></div>
 
 <script type="text/javascript">
