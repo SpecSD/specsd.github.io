@@ -1,6 +1,6 @@
 # SPCSofor verziók
 
-- v1.0.10.0 - teszt
+- [v1.0.10.0](kedvenc-sofor-dok.v1.0.10.0.md) - teszt
   - Adatbázis kapcsolati hiba miatt ritkán előfordul, hogy a bizonylat fejet letölti, de a tételeit nem. Ezentúl ha ilyen történik, a következő megnyitásnál újra megpróbálja letölteni a tételeket.
   - Véglegesítéskor automatikusan kiküldi a pdf-et emailben - amennyiben be van állítva a vevő email címe.
   - A bizonylat megtekintőből a "<-" gomb mindig a nyitott bizonylatok listájára lépett vissza. Most ha a zárt listából érkeztünk, akkor oda is lép vissza.
@@ -67,6 +67,8 @@
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.10.0 | Teszt android apk | 2023.05.26 |
+| 1.0.10.0 | Teszt backend | 2023.05.26 |
 | 1.0.9.2  | Éles backend | 2022.11.21 |
 | 1.0.9.1  | Éles backend | 2022.11.04 |
 | 1.0.9.1  | Teszt backend | 2022.11.04 |
