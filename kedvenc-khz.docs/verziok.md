@@ -1,6 +1,6 @@
 Éles verzió: [v1.0.6.8](#v1.0.6.8)
 
-Teszt verzió: [v1.0.12.3](#v1.0.12.3)
+Teszt verzió: [v1.0.12.4](#v1.0.12.4)
 
 - [v1.0.6.8 - éles](kedvenc-khz-dok.v1.0.6.8.md)<a name="v1.0.6.8"></a>
   - Az üzleti partnerek módosítása form egyben lockolta a teljes folyamatot, ami több percig is tarthatott. Ez alatt más nem tudott SPCKhz-ből bizonylatot generálni. (Pl. iktatás)
@@ -55,6 +55,10 @@ Teszt verzió: [v1.0.12.3](#v1.0.12.3)
     - Rendelés visszanyitása
     - Domain-ek kezelése
 
+- v1.0.12.4 - teszt<a name="v1.0.12.4"></a>
+  - Egyedi ár modul:
+    - Engedélyezéssel kapcsolatos szabályok javítása
+  - Üzletkötői rendelések beforgatása hibajavítás
 - v1.0.12.3 - teszt<a name="v1.0.12.3"></a>
   - A riportok menüpont visszakerül a példa riportokkal, plusz két új: DataBar, és Dinamikus riportok
   - Az ügyvédi felszólítás érvényesítéskor most már pdf nyomtatási képet is készítése
@@ -136,6 +140,11 @@ Teszt verzió: [v1.0.12.3](#v1.0.12.3)
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.12.4 | Éles egyedi ár modul apk  | 2023.05.31 |
+| 1.0.12.4 | Teszt egyedi ár modul apk | 2023.05.31 |
+| 1.0.12.4 | Árazáshoz éles backend    | 2023.05.31 |
+| 1.0.12.4 | Teszt frontend            | 2023.05.31 |
+| 1.0.12.4 | Teszt backend             | 2023.05.31 |
 | 1.0.12.3 | Teszt frontend | 2023.05.17 |
 | 1.0.12.3 | Teszt backend  | 2023.05.17 |
 | 1.0.12.2 | Éles egyedi ár modul apk  | 2023.05.09 |
