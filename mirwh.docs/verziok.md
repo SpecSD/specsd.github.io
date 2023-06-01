@@ -1,5 +1,8 @@
 # SPC-MirWH verziói
 
+- [v1.0.0.12](mirbesz-mirwh-dok.v1.0.0.12.md)
+  - Raklap bontás során a csomagsúlyok eltűnnek - újra be kell vinni őket mindkét raklapra.
+  - A csomag súlyokból duplakattintással lehet sort törölni.
 - v1.0.0.11
   - Raklapra bontás javítása
 - v1.0.0.10

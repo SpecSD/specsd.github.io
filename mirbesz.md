@@ -14,7 +14,7 @@
 
 <br/><br/>
 
-<a href="download/com.spc.mirwhteszt.apk" download>SPCMirWH TESZT v1.0.0.11 (10.10.10.34/TESZT_MB_20230503)</a>
+<a href="download/com.spc.mirwhteszt.apk" download>SPCMirWH TESZT v1.0.0.12 (10.10.10.34/TESZT_MB_20230503)</a>
 <div id="qrcodemirwhteszt" style="width:100px; height:100px; margin:25px;"></div>
 
 <br/><br/>
