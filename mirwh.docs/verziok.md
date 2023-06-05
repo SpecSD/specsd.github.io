@@ -1,5 +1,7 @@
 # SPC-MirWH verziói
 
+- v1.0.0.13
+  - A tárhely cikkei képernyőn ha úgy lövünk vonalkódot, hogy a raklapok listáján állunk, akkor lekezeletlen hibára futott a program.
 - [v1.0.0.12](mirbesz-mirwh-dok.v1.0.0.12.md)
   - Raklap bontás során a csomagsúlyok eltűnnek - újra be kell vinni őket mindkét raklapra.
   - A csomag súlyokból duplakattintással lehet sort törölni.
