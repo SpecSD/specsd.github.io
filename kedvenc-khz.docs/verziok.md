@@ -1,7 +1,57 @@
-Éles verzió: [v1.0.6.8](#v1.0.6.8)
+Éles verzió: [v1.0.12.4](#v1.0.12.4p)
 
-Teszt verzió: [v1.0.12.4](#v1.0.12.4)
+Teszt verzió: [v1.0.12.4](#v1.0.12.4t)
 
+- v1.0.12.4 - éles<a name="v1.0.12.4p"></a>
+  - Egyedi ár modul:
+    - Engedélyezéssel kapcsolatos szabályok javítása
+  - Üzletkötői rendelések beforgatása hibajavítás
+- v1.0.12.3 - teszt<a name="v1.0.12.3"></a>
+  - A riportok menüpont visszakerül a példa riportokkal, plusz két új: DataBar, és Dinamikus riportok
+  - Az ügyvédi felszólítás érvényesítéskor most már pdf nyomtatási képet is készítése
+  - Hívólista form:
+    - dátum kiválasztáskori hiba javítása
+	- kanban nézetben a felhasználók rendezése egy külső bug miatt egyelőre le van tiltva - így most nincs szabályozva, hogy a felhasználók milyen sorrendben jelennek meg.
+  - Ár engedélyezés form hibára futott, ha nem volt vezetője a bejelentkezett felhasználónak
+- [v1.0.12.2](kedvenc-khz-dok.v1.0.12.2.md) - teszt<a name="v1.0.12.2"></a>
+  - Menüpontok átalakítása, csoportosítása
+  - Új funkció: Rendelés leosztás form
+  - Új funkció: Raktári leosztás formok
+    - Gyöngyös szállítólevél rendelés
+	- Bp. szállítólevél rendelés
+	- Kecskemét szállítólevél rendelés
+	- Kimérős leosztás
+  - Új funkció: Különszedős beállítása form
+  - Egyedi ár fejlesztés:
+    - Cikk értéklista hozza azokat a cikkeket is, amire már volt egyedi ára a partnernek, de lejárt
+    - Ha a partner kiválasztásnál megnyomjuk a mégse gombot a felugró ablakon, akkor nem kapunk hibát.
+    - Form kinézetének javítása
+    - Alapértelmezetten már a sorok holnapi dátum értékkel jönnek létre; hibajelzést adunk, ha a dátumtól mező értéke nagyobb mint a mai nap.
+    - Engedélyezésre átadás üzenetküldése hibára futott korábban
+  - Napi zárás "feldolgozás" gombja végrehajtja a rendelés zárását
+  - Telesales hívólista látványos naptár nézetben (Kanban nézet) is meg tudja mutatni a teendőket.
+  - Adminisztratív funkciók:
+    - Ütemezési szintek, csoportok, email beállítások, címzettek hozzárendelése
+	- Szerepek, jogosultságkezelés
+	- Naptár karbantartó
+- v1.0.12.1 - teszt<a name="v1.0.12.1"></a>
+  - Egyedi ár menüpont:
+    - Beszerzési ár már nem látható
+    - Cikk értéklista nem hozza az olyan cikkeket, amikre jelenleg már van valamilyen egyedi ára a partnernek.
+    - Minimál ár alatti ár esetén felmerült hibaüzenet javítása.
+- [v1.0.12.0 - teszt](kedvenc-khz-dok.v1.0.12.0.md)<a name="v1.0.12.0"></a>
+  - A NAV-tól betöltött bejövő számlákra készült egy megtekintő felület.
+  - Az üzletkötői rendelések beforgatása a bizonylatfej felhasználói mezőjébe írja a tényleges felhasználó kódját. (U_FELHASZNALO. Technikailag a manager által jön létre a bizonylat, ezért nem lehetett tudni, ki hozta létre valójában.)
+  - Az Email iktatások felületen most már megjelenítjük az "Aktuális összeg" mezőben fizetési felszólítás esetén az aznap lejáró összeget. (Ami eltérhet a teljes tartozás összegétől, mert korábbi tartozásai is lehetnek a partnernek.)
+  - Az üzletkötői rendelések beforgatása formon a törlés gomb középre, olyan helyre került, ahol kisebb eséllyel lehet véletlenül megnyomni.
+  - Telesales fejlesztés
+    - Hívólista (hívólista összeállítása, sablonok betöltése)
+	- Napi hívólista (Telefonhívás, tevékenység indítás a megadott hívólista alapján)
+- v1.0.11.1 - teszt
+  - Már módosítás nélkül is tudunk sorokat az "ár módosítások" táblába beszúrni.
+  - Ügyvédi felszólitás menüpont - kinnlevőség IV-es ütem
+    - Nyomtatási kép készítése, adminisztrációs díj számla generálása még hiányzik.
+  - Az üzleti partnerek módosítása felületen egy progressbar mutatja a folyamat állapotát - nem fut időtúllépés hibára.
 - [v1.0.6.8 - éles](kedvenc-khz-dok.v1.0.6.8.md)<a name="v1.0.6.8"></a>
   - Az üzleti partnerek módosítása form egyben lockolta a teljes folyamatot, ami több percig is tarthatott. Ez alatt más nem tudott SPCKhz-ből bizonylatot generálni. (Pl. iktatás)
   Most lépésenként lockol, ezért párhuzamosan, egymás mellett működni tudnak, nem kell megvárnia az összes partner módosítást, két partner módosítása között is megtörténhet egy iktatás.
@@ -55,7 +105,7 @@ Teszt verzió: [v1.0.12.4](#v1.0.12.4)
     - Rendelés visszanyitása
     - Domain-ek kezelése
 
-- v1.0.12.4 - teszt<a name="v1.0.12.4"></a>
+- v1.0.12.4 - teszt<a name="v1.0.12.4t"></a>
   - Egyedi ár modul:
     - Engedélyezéssel kapcsolatos szabályok javítása
   - Üzletkötői rendelések beforgatása hibajavítás
@@ -140,6 +190,9 @@ Teszt verzió: [v1.0.12.4](#v1.0.12.4)
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.12.4 | Éles backend  | 2023.06.06 |
+| 1.0.12.4 | Éles frontend | 2023.06.06 |
+| 1.0.12.4 | Éles AddOn    | 2023.06.06 |
 | 1.0.12.4 | Éles egyedi ár modul apk  | 2023.05.31 |
 | 1.0.12.4 | Teszt egyedi ár modul apk | 2023.05.31 |
 | 1.0.12.4 | Árazáshoz éles backend    | 2023.05.31 |
