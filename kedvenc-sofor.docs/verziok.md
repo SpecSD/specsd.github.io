@@ -69,6 +69,8 @@
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.11.0 | Teszt android apk | 2023.06.07 |
+| 1.0.11.0 | Teszt backend     | 2023.06.07 |
 | 1.0.10.0 | Teszt android apk | 2023.05.26 |
 | 1.0.10.0 | Teszt backend | 2023.05.26 |
 | 1.0.9.2  | Éles backend | 2022.11.21 |
