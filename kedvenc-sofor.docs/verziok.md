@@ -1,5 +1,7 @@
 # SPCSofor verziók
 
+- [v1.0.11.0](kedvenc-sofor-dok.v1.0.11.0.md) - teszt
+  - Forinttól eltérő pénznemek kezelése
 - [v1.0.10.0](kedvenc-sofor-dok.v1.0.10.0.md) - teszt
   - Adatbázis kapcsolati hiba miatt ritkán előfordul, hogy a bizonylat fejet letölti, de a tételeit nem. Ezentúl ha ilyen történik, a következő megnyitásnál újra megpróbálja letölteni a tételeket.
   - Véglegesítéskor automatikusan kiküldi a pdf-et emailben - amennyiben be van állítva a vevő email címe.

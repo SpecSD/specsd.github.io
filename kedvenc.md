@@ -44,16 +44,16 @@ Teszt változat: v1.0.12.4.
 <a href="download/com.spc.sofor.apk" download>SPCSofor v1.0.9.0 (JEGSBO2/KHAZ_PROD)</a>
 <div id="qrcodesofor" style="width:100px; height:100px; margin:25px;"></div>
 
+<br/><br/>
+  
+<a href="download/com.spc.soforteszt.apk" download>SPCSoforTeszt v1.0.11.0 (JEGSBO2/TESZT_KHAZ_UJ)</a>
+<div id="qrcodesoforteszt" style="width:100px; height:100px; margin:25px;"></div>
+
 # IFSZ_AddOn_Kerhaz
 
 [Verziók](ifsz-IFSZ_AddOn_Kerhaz.docs/verziok.md)
 
 
-
-<br/><br/>
-  
-<a href="download/com.spc.soforteszt.apk" download>SPCSoforTeszt v1.0.10.0 (JEGSBO2/TESZT_KHAZ_UJ)</a>
-<div id="qrcodesoforteszt" style="width:100px; height:100px; margin:25px;"></div>
 
 <script type="text/javascript">
 var qrcodekhz = new QRCode(document.getElementById("qrcodekhz"), {
