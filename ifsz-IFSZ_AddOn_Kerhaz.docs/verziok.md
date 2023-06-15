@@ -1,5 +1,9 @@
 # IFSZ_AddOn_Kerhaz
 
+- 9.2.0.11
+  - A banki kivonatok feldolgozásánál automatikus könyvelés megkeresi azt, hogy melyik korábbi banki utalás fájl alapján jöhetett létre ez a sor, és ezen adatok alapján könyveli.
+- 9.2.0.10
+  - Szállítólevél - rendelés formon a mennyiségi oszlop pozíciója megváltozott
 - 9.2.0.9
   - Könyvel A gomb használatba vétele
     1. A Banki fizetés hívásakor a Könyvelési dátumba beírja a kivonat értéknapját
@@ -28,6 +32,8 @@
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 9.2.0.11| TESZT_IFSZ_AddOn_Kerhaz | 2023.06.15 |
+| 9.2.0.10| IFSZ_AddOn_Kerhaz | 2023.03.07 |
 | 9.2.0.9 | TESZT_IFSZ_AddOn_Kerhaz | 2023.02.27 |
 | 9.2.0.8 | IFSZ_AddOn_Kerhaz | 2023.01.24 |
 | 9.2.0.8 | TESZT_IFSZ_AddOn_Kerhaz | 2023.01.05 |
