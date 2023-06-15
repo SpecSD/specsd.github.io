@@ -9,7 +9,7 @@
 
 ### Letöltés
 
-<a href="download/com.spc.mirwh.apk" download>SPCMirWH v-.-.-.- (10.10.10.34/MIRBESZ_PROD)</a>
+<a href="download/com.spc.mirwh.apk" download>SPCMirWH v1.0.0.13 (10.10.10.34/MIRBESZ_PROD)</a>
 <div id="qrcodemirwh" style="width:100px; height:100px; margin:25px;"></div>
 
 <br/><br/>
