@@ -1,5 +1,14 @@
 # SPC-MirWH verziói
 
+- v1.0.0.14
+  - Az árubeérkezés képernyőn a program megjegyzi az utoljára kiválasztott szállítót. (Visszatérve egy árubeérkezésből újra kiválasztja.)
+  - Bontásnál a raklapon lévő kartonszám helyett a bontandó kartonszámot mutatja.
+  - Súlyvonalkód beállításnál a vonalkód mezői nem görgethetőek, hanem több sorba töri, ha nem fér ki egy sorba.
+  - Árubeérkezésnél hibát dob, ha nincs megadva a raklap típusa.
+  - A raklap képernyőn az egyedi csomagoknál
+    - mindig az utoljára bevitt kerül felülre.
+    - ha ugyanazt lelövi, akkor rákérdez a program
+  - Tárhely cikkei képernyőn a cikknév vége nem kerül levágásra, hanem több sorba törik.
 - v1.0.0.13
   - A tárhely cikkei képernyőn ha úgy lövünk vonalkódot, hogy a raklapok listáján állunk, akkor lekezeletlen hibára futott a program.
 - [v1.0.0.12](mirbesz-mirwh-dok.v1.0.0.12.md)
