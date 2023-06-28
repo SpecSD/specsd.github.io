@@ -1,5 +1,18 @@
 # SPC-MirWH verziói
 
+- v1.0.0.15
+  - Árubeérkezés listázó: Vevői visszárukat nem listázta
+  - Árubeérkezés feldolgozása: Nem lépett vissza az utoljára érintett tételsorra
+  - Raklap karbantartó:
+    - Egalizált terméknél is megkérdezte a bruttó-nettó súly összefüggést
+    - Karton súlyokon duplaklikk: Nem törli az összes azonos nevű karton azonosítós sort, csak amelyikre kattintott
+    - "Bontás" menüpontból érkezve a kitárolási javaslatot kiválasztva, nem mindig ajánlotta be a bontandó mennyiségeket.
+  - Betárolás főmenüpont: Nem csak az LBE tárhelyet lehet legördülő menüből kiválasztani, hanem a többi logikai tárhelyet is.
+  - Betárolás (betárolás főmenü/tárhelylistából áttárol gomb):
+    - Nem ajánlja fel azonnal a lehetséges tárhelyeket (ahol már van készlet), hanem üres listát mutat.
+    - Tárhely lelövése (ezzel kijelölésre kerül), majd ettől eltérő tárhely le, akkor a program rákérdez.
+    - Hiány tárhelyet nem lehetett kiválasztani.
+  - Bontás menüpont: Megjegyzi az utoljára kiválasztott kitárolási javaslatot és termet. Így a raklap képernyőről visszatéréskor (is) ott tudja folytatni, ahol abbahagyta.
 - v1.0.0.14
   - Az árubeérkezés képernyőn a program megjegyzi az utoljára kiválasztott szállítót. (Visszatérve egy árubeérkezésből újra kiválasztja.)
   - Bontásnál a raklapon lévő kartonszám helyett a bontandó kartonszámot mutatja.
