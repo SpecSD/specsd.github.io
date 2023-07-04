@@ -1,5 +1,7 @@
 # SPCSofor verziók
 
+- v1.0.12.0
+  - A számolt értékek újraszámolódnak véglegesítés előtt - azért, mert néha a felvitel során ezek eltérést tudnak mutatni.
 - [v1.0.11.0](kedvenc-sofor-dok.v1.0.11.0.md) - teszt
   - Forinttól eltérő pénznemek kezelése
 - [v1.0.10.0](kedvenc-sofor-dok.v1.0.10.0.md) - teszt
@@ -60,7 +62,7 @@
 
 | Végpont | Leírás |
 |:--------|:-------|
-| Éles backend | Útvonal: \\\\192.168.20.162\\c$\\spc\\khz_eles_sofor_backend IIS: http://192.168.20.162:4100 Db: JEGSBO2/KHAZ_PROD |
+| Éles backend | Útvonal: \\\\192.168.20.162\\c$\\spc\\khz_eles_sofor_backend IIS: http://192.168.20.162:4104 v1.0.12.0 előtt: http://192.168.20.162:4100 Db: JEGSBO2/KHAZ_PROD |
 | Éles android apk | [Letölthető](../kedvenc.md) |
 | Teszt backend | Útvonal: \\\\192.168.20.162\\c$\\spc\\khz_teszt2_sofor_backend IIS: http://192.168.20.162:4101 Db: JEGSBO2/TESZT_KHAZ_UJ |
 | Teszt android apk | [Letölthető](../kedvenc.md) |
@@ -69,6 +71,8 @@
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.12.0 | Éles android apk | 2023.07.04 |
+| 1.0.12.0 | Éles backend     | 2023.07.04 |
 | 1.0.11.0 | Teszt android apk | 2023.06.07 |
 | 1.0.11.0 | Teszt backend     | 2023.06.07 |
 | 1.0.10.0 | Teszt android apk | 2023.05.26 |

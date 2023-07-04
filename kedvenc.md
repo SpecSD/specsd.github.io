@@ -41,7 +41,7 @@ Teszt változat: v1.0.12.4.
 
 ## Android letöltés
 
-<a href="download/com.spc.sofor.apk" download>SPCSofor v1.0.9.0 (JEGSBO2/KHAZ_PROD)</a>
+<a href="download/com.spc.sofor.apk" download>SPCSofor v1.0.12.0 (JEGSBO2/KHAZ_PROD)</a>
 <div id="qrcodesofor" style="width:100px; height:100px; margin:25px;"></div>
 
 <br/><br/>
