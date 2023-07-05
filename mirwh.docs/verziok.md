@@ -1,5 +1,10 @@
 # SPC-MirWH verziói
 
+- v1.0.0.16
+  - Kezdőképernyő felirata a program nevét tartalmazza (SPC-MirWH, vagy SPC-MirWH**Teszt**)
+  - Kiszedési javaslat menüpont: Ne ragassza össze két terem betűkódját egybe (pl. "AW"), ezek külön választási lehetőségként jelenjenek meg. ("A", "W")
+  - Teszt verzió esetén a menü oldalsávban egy "TESZT!!!!" felirat látszik.
+  - Helit raklap betárolási hiba javítása
 - v1.0.0.15
   - Árubeérkezés listázó: Vevői visszárukat nem listázta
   - Árubeérkezés feldolgozása: Nem lépett vissza az utoljára érintett tételsorra
