@@ -1,5 +1,10 @@
 # SPC-MirWH verziói
 
+- v1.0.0.17
+  - Raklap képernyő
+    - Kartonsúlyok 3 tizedesjegy pontossággal ábrázolva
+    - Kartonsúly kezelő gombok ("III", "X") bontásnál ne legyenek letiltva, a  vonalkód alapján történő bevitel is működjön.
+    - Bontás előtti mennyiség ellenőrzés hibának a javítása
 - v1.0.0.16
   - Kezdőképernyő felirata a program nevét tartalmazza (SPC-MirWH, vagy SPC-MirWH**Teszt**)
   - Kiszedési javaslat menüpont: Ne ragassza össze két terem betűkódját egybe (pl. "AW"), ezek külön választási lehetőségként jelenjenek meg. ("A", "W")
