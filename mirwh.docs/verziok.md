@@ -1,5 +1,22 @@
 # SPC-MirWH verziói
 
+- v1.0.0.18
+  - Árubeérkezés: Bezárás előtti rákérdezés.
+  - Betárolás: Visszalépéskor ne álljon vissza mindig az LBE tárhelyre, ha előtte pl. a KOM tárhelyen volt, akkor maradjon ott.
+  - Bontás komissióra:
+    - Tárhely sorrend szerinti megjelenítés
+    - Cikk név megjelenik a kiválasztott sorhoz kapcsolódóan
+  - Bontás menüpont:
+    - Ha nincs kitárolási javaslat kiválasztva, akkor az összes javaslat bontandó raklapjai jelenjenek meg, ha nincs terem, akkor az összes teremé
+    - Alul a kitárolási javaslat megjegyzés és a cikk neve görgethető módon jelenik meg. (Amennyiben nem fér ki a képernyőre)
+  - Raklap bontás: Akkor is írja ki a nem egalizált kartonok súly összeg eltérését, ha az ürítendő oldalon még nincs megadva egy karton sem. (Ilyenkor csak azt a hibát írta ki, hogy nincs megadva kartonsúly.)
+  - Raklap karbantartó:
+    - A csomag súly beírása után a beviteli fókusz visszakerül ugyanoda, hogy folyamatosan lehessen felvinni a súlyokat.
+    - A raklap törlés veszélyt jelző színnel jelenik meg.
+  - Kiszedési javaslat:
+    - A cikk neve görgethető módon jelenik meg. (Amennyiben nem fér ki a képernyőre)
+    - Bizonyos raklapok esetén "Double konverziós" hibát írt ki a program, ennek javítása megtörtént.
+  - Főmenü: Érzékelje a teljes szélességében, ha rányomnak. (Ne csak azon a részen, ahol a menüpnt szövege van.)
 - v1.0.0.17
   - Raklap képernyő
     - Kartonsúlyok 3 tizedesjegy pontossággal ábrázolva
