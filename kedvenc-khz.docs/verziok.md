@@ -1,7 +1,24 @@
-Éles verzió: [v1.0.12.4](#v1.0.12.4p)
+Éles verzió: [v1.0.12.6](#v1.0.12.6p)
 
 Teszt verzió: [v1.0.12.4](#v1.0.12.4t)
 
+- [v1.0.12.6](kedvenc-khz-dok.v1.0.12.6.md) - éles<a name="v1.0.12.6p"></a>
+  - Az ügyvédi felszólítás csatolt pdf-re rákerül maga az iktatószám.
+  - Elengedéskor be kell írni egy okot, ami a megjegyzés mezőbe kerül. A megjegyzés mező megjelenik mindkét ügyvédi felszólítás formon.
+  - Rendezetlen oszlop felkerül a formokra. (Érvényesítés után követhető, hogy még mennyi a tartozás.)
+  - Excel lista generálás az ügyvédi felszólítás listából
+  - Generált ügyvédi felszólítási díj számlán a fizetési feltétel a partner alapértelmezett fizetési feltétele, és a lejárat is ez alapján számolódik.
+  - Az ügyvédi felszólítások formról indított frissítés során is újrakalkulálja a már korábban érvényesített felszólítások rendezettségi adatait.
+  - Hibajavítás: Amint rendezetlen státuszba került a felszólítás, olyankor egy újat generált.
+  - Kinnlevőség számoló algoritmus javítása (nem vette észre, hogy már volt 2. szintű felszólítás, amikor adminisztrációs számla is a képbe került.)
+- v1.0.12.5 - éles<a name="v1.0.12.5p"></a>
+  - Ügyvédi felszólitások lista menüpontban listázzuk az ügyvédi felszólításokat
+  - Ügyvédi felszólítás form
+    - Érvényesítés előtt kiválasztható, hogy generálunk-e számlát az ügyvédi felszólítási díjról.
+	- Induláskor kiírt hibaüzenet javítása
+	- Érvényesítés utáni után-követés: Rendezett, rendezetlen ügyvédi felszólítások
+	- Átnavigálhatunk az ügyédi felszólítás listára (partner nevére kattintással)
+  - SAP B1 kliens: Üzleti partnerek felületről jobbklikkel előhívható az "Ügyvédi felszólítások lista"
 - v1.0.12.4 - éles<a name="v1.0.12.4p"></a>
   - Egyedi ár modul:
     - Engedélyezéssel kapcsolatos szabályok javítása
@@ -190,6 +207,14 @@ Teszt verzió: [v1.0.12.4](#v1.0.12.4t)
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.12.6 | Éles backend  | 2023.07.25 |
+| 1.0.12.6 | Éles frontend | 2023.07.25 |
+| 1.0.12.6 | Teszt backend  | 2023.07.25 |
+| 1.0.12.6 | Teszt frontend | 2023.07.25 |
+| 1.0.12.5 | Éles backend  | 2023.07.03 |
+| 1.0.12.5 | Éles frontend | 2023.07.03 |
+| 1.0.12.5 | Teszt backend  | 2023.07.03 |
+| 1.0.12.5 | Teszt frontend | 2023.07.03 |
 | 1.0.12.4 | Éles backend  | 2023.06.06 |
 | 1.0.12.4 | Éles frontend | 2023.06.06 |
 | 1.0.12.4 | Éles AddOn    | 2023.06.06 |
