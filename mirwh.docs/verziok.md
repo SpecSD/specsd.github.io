@@ -1,5 +1,10 @@
 # SPC-MirWH verziói
 
+- v1.0.0.19
+  - v1.0.0.18-as verzióval bekerült hibák javítása:
+    - Ha az ürítendő raklapról mindent lebontunk, akkor is belefutott abba a hibába, hogy nincs megadva csomag súly, pedig az már üres raklap.
+    - Betárolás funkcióban áttárolás után visszatéréskor nem ment vissza az LBE tárhelyre.
+  - Raklap napló funkció elkészült
 - v1.0.0.18
   - Árubeérkezés: Bezárás előtti rákérdezés.
   - Betárolás: Visszalépéskor ne álljon vissza mindig az LBE tárhelyre, ha előtte pl. a KOM tárhelyen volt, akkor maradjon ott.
