@@ -1,5 +1,10 @@
 # SPC-MirWH verziói
 
+- v1.0.0.20
+  - Egalizált termék bontásánál is ellenőrizte volna, hogy a csomagazonosítók fel vannak-e véve, de ott eleve nem lehetnek.
+  - Súly bevitel többször duplán történt meg.
+  - Raklap napló gomb nagyobb méretben, és a tárhely lista képernyőn is.
+  - Raklap napló rendezés időbeli csökkenő sorrendben
 - v1.0.0.19
   - v1.0.0.18-as verzióval bekerült hibák javítása:
     - Ha az ürítendő raklapról mindent lebontunk, akkor is belefutott abba a hibába, hogy nincs megadva csomag súly, pedig az már üres raklap.
