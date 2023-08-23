@@ -1,5 +1,9 @@
 # SPCSofor verziók
 
+- [v1.0.12.2](kedvenc-sofor-dok.v1.0.12.md)
+  - "H "-el kezdődő és a megadott termékcsoportba tartozó cikkek kiszűrve a cikkek listájából. (https://support.specificdev.hu/agent/tickets/57)
+- v1.0.12.1
+  - Üres nyomtatási kép hiba javítása
 - v1.0.12.0
   - A számolt értékek újraszámolódnak véglegesítés előtt - azért, mert néha a felvitel során ezek eltérést tudnak mutatni.
 - [v1.0.11.0](kedvenc-sofor-dok.v1.0.11.0.md) - teszt
@@ -71,6 +75,8 @@
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.12.2 | Éles backend     | 2023.08.23 |
+| 1.0.12.1 | Éles backend     | 2023.08.01 |
 | 1.0.12.0 | Éles android apk | 2023.07.04 |
 | 1.0.12.0 | Éles backend     | 2023.07.04 |
 | 1.0.11.0 | Teszt android apk | 2023.06.07 |
