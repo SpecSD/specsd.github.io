@@ -1,7 +1,29 @@
-Éles verzió: [v1.0.12.6](#v1.0.12.6p)
+Éles verzió: [v1.0.12.9](#v1.0.12.9p)
 
-Teszt verzió: [v1.0.12.4](#v1.0.12.4t)
+Teszt verzió: [v1.0.12.6](#v1.0.12.6p)
 
+- v1.0.12.9<a name="v1.0.12.9p">
+  - Ár módosítások form
+    - Szabad szavas keresés
+	- Új ár beszúrása az ospp táblába
+    - Új ár beszúrásánál a u_3x és u_arlistas oszlopok 'Y' illetve 'I'-re állítása
+    - Érvénytelen partnerek és cikkek kihagyása
+- v1.0.12.8<a name="v1.0.12.8p">
+  - Iktatás
+    - Ha már korábban berögzített külső bizonylatszámot rögzít a felhasználó, felugró ablakban figyelmeztet
+    - A tételekben a bizonylatok értéklista tartalmazza a devizás összeget és a pénznemet
+  - Raktári leosztás form
+    - kommissiozásra szűrés javítása.
+    - Mennyiség mező szélességének a módosítása a jobban láthatóság érdekében
+    - Kijelölt fej nélküli aktualizálás esetén hibára futott
+  - Napi zárás: Gyorsabb betöltés
+  - Napi zárás visszanyitás: Induláskor azonnal lekérdezi a mai napi adatokat.
+  - Kihozatali csoportok form
+  - Szállítólevél generálás formok
+- [v1.0.12.7](kedvenc-khz-dok.v1.0.12.7.md) - éles<a name="v1.0.12.7p"></a>
+  - Ügyvédi felszólítás:
+    - Az elengedett státuszú felszólítást vissza lehet vonni.
+    - Elengedéskor és visszavonáskor is kér okot, amit a megjegyzés oszlopba mentünk.
 - [v1.0.12.6](kedvenc-khz-dok.v1.0.12.6.md) - éles<a name="v1.0.12.6p"></a>
   - Az ügyvédi felszólítás csatolt pdf-re rákerül maga az iktatószám.
   - Elengedéskor be kell írni egy okot, ami a megjegyzés mezőbe kerül. A megjegyzés mező megjelenik mindkét ügyvédi felszólítás formon.
@@ -207,6 +229,13 @@ Teszt verzió: [v1.0.12.4](#v1.0.12.4t)
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.12.9 | Árazáshoz éles backend | 2023.09.05 |
+| 1.0.12.9 | Éles backend  | 2023.09.05 |
+| 1.0.12.9 | Éles frontend | 2023.09.05 |
+| 1.0.12.8 | Éles backend  | 2023.09.03 |
+| 1.0.12.8 | Éles frontend | 2023.09.03 |
+| 1.0.12.7 | Éles backend  | 2023.08.18 |
+| 1.0.12.7 | Éles frontend | 2023.08.18 |
 | 1.0.12.6 | Éles backend  | 2023.07.25 |
 | 1.0.12.6 | Éles frontend | 2023.07.25 |
 | 1.0.12.6 | Teszt backend  | 2023.07.25 |

@@ -7,9 +7,9 @@
 
 ## SPCKhz addon
 
-v1.0.12.4: A 10.0.0.30-as szerveren a C:\spc\spc_addon_khz mappában található.
+v1.0.12.9: A 10.0.0.30-as szerveren a C:\spc\spc_addon_khz mappában található.
 
-Teszt változat: v1.0.12.4.
+Teszt változat: v1.0.12.6.
 
 ## SpcKhz androidos változatai
 
@@ -25,7 +25,7 @@ Teszt változat: v1.0.12.4.
   
 ### Kedvenc Egyedi ár modul (KHZ-ből készült, csak ármodulos menüpontokkal)
 
-<a href="download/com.spc.khzegyediar.apk" download>SPCKhzEgyediAr v1.0.12.4 (JEGSBO2/KHAZ_PROD)</a>
+<a href="download/com.spc.khzegyediar.apk" download>SPCKhzEgyediAr v1.0.12.9 (JEGSBO2/KHAZ_PROD)</a>
 <div id="qrcodekedvencar" style="width:100px; height:100px; margin:25px;"></div>
 
 <br/><br/>
