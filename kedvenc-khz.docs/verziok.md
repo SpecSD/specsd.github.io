@@ -1,7 +1,24 @@
 Éles verzió: [v1.0.12.9](#v1.0.12.9p)
 
-Teszt verzió: [v1.0.12.6](#v1.0.12.6p)
+Teszt verzió: [v1.0.13.0](#v1.0.13.0t)
 
+- v1.0.13.0<a name="v1.0.13.0t">
+  - Hívólista form
+    - Időnként előforduló lefagyásos hibaüzenetek megszüntetése
+	- Már táblázat nézetben is láthatóak a korábbi napokhoz tartozó sorok, de módosítnai hozzáadni nem lehet
+    - Kanban nézet frissul (megjelennek az új kártyák), ha sablonból betöltünk új sorokat
+	- Kanban nézetben is lehet hozzáadni
+	- Dátum mező egyszerűsített beírás működik (Pl. "0701" -> "2023.07.01")
+  - Napi hívólista form
+    - Hibaüzenetet kapunk, ha úgy akarunk hívást indítani hogy nincs kijelölve sor a partner listában (nincs kék színnel kiemelve)
+    - Az eredmény oszlopra ha rávisszük az egeret tooltip megjeleníti a teljes üzenetet (akkor is ha az üzenet kifér)
+    - A partner táblázatbeli ikon telefon ábra helyett dokumentumot ábrázol, jelezve, hogy itt nem fog történni valódi tárcsázás
+    - Az "eredmény mezőt nem hagyhatja üresen" felirat hibájának javítása
+    - Státusz megjelenítésének javítása
+	- Kanban nézetben dátumváltásra előforduló lefagyás javítása
+  - Új vevői rendelés form: A form kinézete, adatok beírása, kiválasztása tesztelhető - egyelőre még nem menti el adatbázisba
+  - Szállítólevél nyomtatás
+    - A formon ki lehet választani egy "Árukísérő nyomtató"-t is. Azoknak a vevőknek, akiknek ez be van állítva (U_SZLEV_NYOMT fho.mező), nem a másik nyomtatóra lesz elküldve a karakteres nyomtatású szállítólevél, hanem az "Árukísérő nyomtató"-ban kiválasztott nyomtatóra lesz elküldve egy grafikus formátumú árukísérő.
 - v1.0.12.9<a name="v1.0.12.9p">
   - Ár módosítások form
     - Szabad szavas keresés
@@ -9,6 +26,7 @@ Teszt verzió: [v1.0.12.6](#v1.0.12.6p)
     - Új ár beszúrásánál a u_3x és u_arlistas oszlopok 'Y' illetve 'I'-re állítása
     - Érvénytelen partnerek és cikkek kihagyása
 - v1.0.12.8<a name="v1.0.12.8p">
+  - Üzletkötői rendelések: Meglévő rendelésre ráforgatásnál is tölti (módosítja) az U_FELHASZNALO felhasználói mezőt
   - Iktatás
     - Ha már korábban berögzített külső bizonylatszámot rögzít a felhasználó, felugró ablakban figyelmeztet
     - A tételekben a bizonylatok értéklista tartalmazza a devizás összeget és a pénznemet
@@ -224,11 +242,21 @@ Teszt verzió: [v1.0.12.6](#v1.0.12.6p)
 | Teszt android apk | [Letölthető](../kedvenc.md) |
 | Teszt egyedi ár modul apk | [Letölthető](../kedvenc.md) |
 | Árazáshoz éles backend | Útvonal: \\\\192.168.20.162\\c$\\spc\\kedvencar_eles_backend IIS: http://192.168.20.162:4103 Db: JEGSBO2/KHAZ_PROD (Mivel élesben lehet csak tesztelni, viszont az éles backendet nem lehet jelenleg felülvágni) |
+| KedvencInformatika backend | Útvonal: \\\\192.168.20.162\\c$\\spc\\kinf_khz_backend IIS: http://192.168.20.162:4105 Db: JEGSBO2/KEDVENC_INFORMATIKA |
+| KedvencInformatika frontend | Útvonal: \\\\192.168.20.162\\c$\\spc\\kinf_khz_frontend IIS: https://192.168.20.162:7175 |
+| Nokoro backend | Útvonal: \\\\192.168.20.162\\c$\\spc\\nokoro_khz_backend IIS: http://192.168.20.162:4106 Db: JEGSBO2/NOKORO |
+| Nokoro frontend | Útvonal: \\\\192.168.20.162\\c$\\spc\\nokoro_khz_frontend IIS: https://192.168.20.162:7176 |
   
 ## Telepítési napló
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.13.0 | Nokoro backend  | 2023.09.06 |
+| 1.0.13.0 | Nokoro frontend | 2023.09.06 |
+| 1.0.13.0 | KedvencInformatika backend  | 2023.09.06 |
+| 1.0.13.0 | KedvencInformatika frontend | 2023.09.06 |
+| 1.0.13.0 | Teszt backend  | 2023.09.06 |
+| 1.0.13.0 | Teszt frontend | 2023.09.06 |
 | 1.0.12.9 | Árazáshoz éles backend | 2023.09.05 |
 | 1.0.12.9 | Éles backend  | 2023.09.05 |
 | 1.0.12.9 | Éles frontend | 2023.09.05 |

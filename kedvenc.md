@@ -11,6 +11,8 @@ v1.0.12.9: A 10.0.0.30-as szerveren a C:\spc\spc_addon_khz mappában található
 
 Teszt változat: v1.0.12.6.
 
+Kiscégek: v1.0.13.0.
+
 ## SpcKhz androidos változatai
 
 <a href="download/com.spc.khz.apk" download>SPCKhz v1.0.0.5 (JEGSBO2/KHAZ_PROD)</a>
