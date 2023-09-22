@@ -2,6 +2,9 @@
 
 Teszt verzió: [v1.0.13.0](#v1.0.13.0t)
 
+- v1.0.13.1<a name="v1.0.13.1">
+  - Ár jóváhagyás funkció lockolásos probléma megoldása
+  - (v1.0.12.10-ben is:) Árazás: kezdődátum megegyezhet a záró dátummal
 - v1.0.13.0<a name="v1.0.13.0t">
   - Hívólista form
     - Időnként előforduló lefagyásos hibaüzenetek megszüntetése
@@ -19,6 +22,8 @@ Teszt verzió: [v1.0.13.0](#v1.0.13.0t)
   - Új vevői rendelés form: A form kinézete, adatok beírása, kiválasztása tesztelhető - egyelőre még nem menti el adatbázisba
   - Szállítólevél nyomtatás
     - A formon ki lehet választani egy "Árukísérő nyomtató"-t is. Azoknak a vevőknek, akiknek ez be van állítva (U_SZLEV_NYOMT fho.mező), nem a másik nyomtatóra lesz elküldve a karakteres nyomtatású szállítólevél, hanem az "Árukísérő nyomtató"-ban kiválasztott nyomtatóra lesz elküldve egy grafikus formátumú árukísérő.
+- v1.0.12.10
+  - Árazás: kezdődátum megegyezhet a záró dátummal
 - v1.0.12.9<a name="v1.0.12.9p">
   - Ár módosítások form
     - Szabad szavas keresés
@@ -251,12 +256,16 @@ Teszt verzió: [v1.0.13.0](#v1.0.13.0t)
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.13.1 | Éles egyedi ár modul apk  | 2023.09.22 |
+| 1.0.13.1 | Árazáshoz éles backend | 2023.09.22 |
+| 1.0.12.10 | Árazáshoz éles backend | 2023.09.18 |
 | 1.0.13.0 | Nokoro backend  | 2023.09.06 |
 | 1.0.13.0 | Nokoro frontend | 2023.09.06 |
 | 1.0.13.0 | KedvencInformatika backend  | 2023.09.06 |
 | 1.0.13.0 | KedvencInformatika frontend | 2023.09.06 |
 | 1.0.13.0 | Teszt backend  | 2023.09.06 |
 | 1.0.13.0 | Teszt frontend | 2023.09.06 |
+| 1.0.12.9 | Éles egyedi ár modul apk  | 2023.09.05 |
 | 1.0.12.9 | Árazáshoz éles backend | 2023.09.05 |
 | 1.0.12.9 | Éles backend  | 2023.09.05 |
 | 1.0.12.9 | Éles frontend | 2023.09.05 |
