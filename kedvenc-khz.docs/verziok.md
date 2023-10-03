@@ -1,7 +1,18 @@
 Éles verzió: [v1.0.12.9](#v1.0.12.9p)
 
-Teszt verzió: [v1.0.13.0](#v1.0.13.0t)
+Teszt verzió: [v1.0.13.2](#v1.0.13.2)
 
+- v1.0.13.3
+  - Egyedi ár UK jóváhagyó form
+    - automatizmusok kezelése
+- v1.0.13.2<a name="v1.0.13.2">
+  - Cikk részletek form (Telesales mappa) {jegy: 22}
+    - Cikk tulajdonságok form
+	- Cikk tulajdonság csoportok form
+	- Cikk információk form
+  - Vevői rendelés form továbbfejlesztése (Telesales mappa)
+  - Üzletkötői feladatok formon "/" jelet tartalmazó mező esetén előforduló hiba javítása {jegy: 72}
+  - Sofőr kontaktok form {jegy: 75} (KKH fejlesztések menüpont)
 - v1.0.13.1<a name="v1.0.13.1">
   - Ár jóváhagyás funkció lockolásos probléma megoldása
   - (v1.0.12.10-ben is:) Árazás: kezdődátum megegyezhet a záró dátummal
@@ -256,6 +267,10 @@ Teszt verzió: [v1.0.13.0](#v1.0.13.0t)
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.13.3 | Éles egyedi ár modul apk  | 2023.10.03 |
+| 1.0.13.3 | Árazáshoz éles backend | 2023.10.03 |
+| 1.0.13.2 | Teszt backend  | 2023.09.23 |
+| 1.0.13.2 | Teszt frontend | 2023.09.23 |
 | 1.0.13.1 | Éles egyedi ár modul apk  | 2023.09.22 |
 | 1.0.13.1 | Árazáshoz éles backend | 2023.09.22 |
 | 1.0.12.10 | Árazáshoz éles backend | 2023.09.18 |
