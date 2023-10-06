@@ -2,6 +2,10 @@
 
 Teszt verzió: [v1.0.13.4](#v1.0.13.4)
 
+- v1.0.13.5<a name="v1.0.13.5">
+  - UK egyedi ár javítás
+    - "Nem található megegyező ársor" hibaüzenet
+	- 0 ár tiltása
 - v1.0.13.4<a name="v1.0.13.4">
   - Cikk tulajdonságok form továbbfejleszése - excel betöltés
 - v1.0.13.3
@@ -269,6 +273,7 @@ Teszt verzió: [v1.0.13.4](#v1.0.13.4)
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.13.5 | Árazáshoz éles backend | 2023.10.06 |
 | 1.0.13.4 | Teszt backend  | 2023.10.05 |
 | 1.0.13.4 | Teszt frontend | 2023.10.05 |
 | 1.0.13.3 | Éles egyedi ár modul apk  | 2023.10.03 |
