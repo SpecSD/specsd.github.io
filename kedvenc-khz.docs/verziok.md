@@ -1,7 +1,9 @@
 Éles verzió: [v1.0.12.9](#v1.0.12.9p)
 
-Teszt verzió: [v1.0.13.4](#v1.0.13.4)
+Teszt verzió: [v1.0.13.6](#v1.0.13.6)
 
+- v1.0.13.6<a name="v1.0.13.6">
+  - Egyedi ár hibaüzenet javítás
 - v1.0.13.5<a name="v1.0.13.5">
   - UK egyedi ár javítás
     - "Nem található megegyező ársor" hibaüzenet
@@ -273,6 +275,8 @@ Teszt verzió: [v1.0.13.4](#v1.0.13.4)
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.13.6 | Éles egyedi ár modul apk | 2023.10.16 |
+| 1.0.13.6 | Árazáshoz éles backend | 2023.10.16 |
 | 1.0.13.5 | Árazáshoz éles backend | 2023.10.06 |
 | 1.0.13.4 | Teszt backend  | 2023.10.05 |
 | 1.0.13.4 | Teszt frontend | 2023.10.05 |
