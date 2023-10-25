@@ -1,5 +1,10 @@
 # SPC-MirWH verziói
 
+- v1.0.0.22
+  - A tárhely legördülőbe most már kézzel is bele lehet írni egy tárhely kódot, nem csak vonalkódolvasással működik
+- v1.0.0.21
+  - Leltár esetén ne vizsgálja az eredeti értékeket (az 1.0.0.20-asban történt másik változás miatt alakult úgy, hogy most már vizsgálta)
+  - A táblázatokban történő automatikus sorra ráállás pontatlanságainak javítása - a változó sormagasság nem okoz gondot. (Pl. tárhely cikkeinél nem arra a raklap sorára gördült, ami ki lett jelölve.)
 - v1.0.0.20
   - Egalizált termék bontásánál is ellenőrizte volna, hogy a csomagazonosítók fel vannak-e véve, de ott eleve nem lehetnek.
   - Súly bevitel többször duplán történt meg.
