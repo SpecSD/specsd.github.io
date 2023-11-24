@@ -2,6 +2,10 @@
 
 Teszt verzió: [v1.0.13.6](#v1.0.13.6)
 
+- v1.0.13.7<a name="v1.0.13.7">
+  - A karakteres és az A4-es szállítólevél riporton a tétel megjegyzés mező megjelenítése
+  - Az A4-es riporton a 676-os megjegyzésben korábban kimaradt a százalék érték megjelenítése.
+  - Ha a kétféle riport közül az egyik nem volt akkor feleslegesen dobott hibát
 - v1.0.13.6<a name="v1.0.13.6">
   - Egyedi ár hibaüzenet javítás
 - v1.0.13.5<a name="v1.0.13.5">
@@ -275,6 +279,9 @@ Teszt verzió: [v1.0.13.6](#v1.0.13.6)
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.13.7 | Éles frontend (Ez most az "Árazáshoz éles backend"-hez kapcsolódik) | 2023.11.24 |
+| 1.0.13.7 | Árazáshoz éles backend | 2023.11.24 |
+| 1.0.13.6 | Teszt AddOn | 2023.10.24 |
 | 1.0.13.6 | Éles egyedi ár modul apk | 2023.10.16 |
 | 1.0.13.6 | Árazáshoz éles backend | 2023.10.16 |
 | 1.0.13.5 | Árazáshoz éles backend | 2023.10.06 |
