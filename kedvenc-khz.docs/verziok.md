@@ -2,7 +2,7 @@
 
 Teszt verzió: [v1.0.13.6](#v1.0.13.6)
 
-- v1.0.13.7<a name="v1.0.13.7"> *[Felhasználói leírás]*(kedvenc-khz-dok.v1.0.13.7.md)
+- v1.0.13.7<a name="v1.0.13.7"> *[Felhasználói leírás](kedvenc-khz-dok.v1.0.13.7.md)*
   - A karakteres és az A4-es szállítólevél riporton a tétel megjegyzés mező megjelenítése
   - Az A4-es riporton a 676-os megjegyzésben korábban kimaradt a százalék érték megjelenítése.
   - Ha a kétféle riport közül az egyik nem volt akkor feleslegesen dobott hibát
