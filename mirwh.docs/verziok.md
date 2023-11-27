@@ -1,5 +1,8 @@
 # SPC-MirWH verziói
 
+- v1.0.0.23
+  - A bontás formon lehetőség van egy konkrét kitárolási javaslat helyett az összest kiválasztani. (A legördülő listában az üres sorra kell váltani.)
+  - Naplózás kiegészítve: a kocsira pakolás (vagy arról levétel) lépéseknél is bejegyzést tesz, így követhető, hogy melyik szállítólevélre kerül.
 - v1.0.0.22
   - A tárhely legördülőbe most már kézzel is bele lehet írni egy tárhely kódot, nem csak vonalkódolvasással működik
 - v1.0.0.21
