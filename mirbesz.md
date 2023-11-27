@@ -1,7 +1,11 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/qrcode.js"></script>
 
-# Android apk-k letöltése
+# Mirbesz fejlesztések
+
+## Mirbesz AddOn
+
+[Funkcionális leírás](mirbesz-addon.docs/mirbesz-addon-dok-v0.0.0.0.md)
 
 ## MirWH
 
