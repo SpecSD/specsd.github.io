@@ -1,8 +1,11 @@
 Éles verzió: [v1.0.12.9](#v1.0.12.9p)
 
-Teszt verzió: [v1.0.13.6](#v1.0.13.6)
+Teszt verzió: [v1.0.13.7](#v1.0.13.7)
 
-- v1.0.13.7<a name="v1.0.13.7"> *[Felhasználói leírás](kedvenc-khz-dok.v1.0.13.7.md)*
+- v1.0.13.8<a name="v1.0.13.8">
+  - Ticket #119: Besz.ár helyett készletért.ár - inaktív jóváhagyás gomb minimál ár csökkenésnél.
+  - Ticket #126: Egyedi ár modul, csoportos jóváhagyás
+- v1.0.13.7<a name="v1.0.13.7">
   - A karakteres és az A4-es szállítólevél riporton a tétel megjegyzés mező megjelenítése
   - Az A4-es riporton a 676-os megjegyzésben korábban kimaradt a százalék érték megjelenítése.
   - Ha a kétféle riport közül az egyik nem volt akkor feleslegesen dobott hibát
@@ -279,6 +282,7 @@ Teszt verzió: [v1.0.13.6](#v1.0.13.6)
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.13.8 | Éles egyedi ár modul apk | 2023.11.30 |
 | 1.0.13.7 | Éles frontend (Ez most az "Árazáshoz éles backend"-hez kapcsolódik) | 2023.11.24 |
 | 1.0.13.7 | Árazáshoz éles backend | 2023.11.24 |
 | 1.0.13.6 | Teszt AddOn | 2023.10.24 |
