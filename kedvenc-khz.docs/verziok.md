@@ -48,6 +48,8 @@ Teszt verzió: [v1.0.13.7](#v1.0.13.7)
   - Új vevői rendelés form: A form kinézete, adatok beírása, kiválasztása tesztelhető - egyelőre még nem menti el adatbázisba
   - Szállítólevél nyomtatás
     - A formon ki lehet választani egy "Árukísérő nyomtató"-t is. Azoknak a vevőknek, akiknek ez be van állítva (U_SZLEV_NYOMT fho.mező), nem a másik nyomtatóra lesz elküldve a karakteres nyomtatású szállítólevél, hanem az "Árukísérő nyomtató"-ban kiválasztott nyomtatóra lesz elküldve egy grafikus formátumú árukísérő.
+- v1.0.12.11
+  - Beforgatás során jöhet az androidról olyan dátum, ami órát, percet is tartalmaz. Ilyenkor nem tudta ráforgatni a program a meglévő rendelésre. Ezentúl levágjuk a dátum óra, perc részeit, és ezzel számolunk.
 - v1.0.12.10
   - Árazás: kezdődátum megegyezhet a záró dátummal
 - v1.0.12.9<a name="v1.0.12.9p">
