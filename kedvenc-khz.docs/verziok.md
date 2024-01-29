@@ -2,6 +2,8 @@
 
 Teszt verzió: [v1.0.13.7](#v1.0.13.7)
 
+- v1.0.13.9<a name="v1.0.13.9">
+  - Ticket #184: Üres sor létrehozhatóságának megakadályozása.
 - v1.0.13.8<a name="v1.0.13.8">
   - Ticket #119: Besz.ár helyett készletért.ár - inaktív jóváhagyás gomb minimál ár csökkenésnél.
   - Ticket #126: Egyedi ár modul, csoportos jóváhagyás
