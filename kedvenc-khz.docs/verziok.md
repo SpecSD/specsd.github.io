@@ -2,6 +2,10 @@
 
 Teszt verzió: [v1.0.13.7](#v1.0.13.7)
 
+- v1.0.13.10<a name="v1.0.13.10">
+  - Egy egyedi ár törlése lehetségessé válik olyan módon, hogy a vége dátumot rövidítjük
+- v1.0.13.9b<a name="v1.0.13.9b">
+  - Ticket #127: Telesales kolléga kérhessen árat
 - v1.0.13.9<a name="v1.0.13.9">
   - Ticket #184: Üres sor létrehozhatóságának megakadályozása.
 - v1.0.13.8<a name="v1.0.13.8">
@@ -281,11 +285,16 @@ Teszt verzió: [v1.0.13.7](#v1.0.13.7)
 | KedvencInformatika frontend | Útvonal: \\\\192.168.20.162\\c$\\spc\\kinf_khz_frontend IIS: https://192.168.20.162:7175 |
 | Nokoro backend | Útvonal: \\\\192.168.20.162\\c$\\spc\\nokoro_khz_backend IIS: http://192.168.20.162:4106 Db: JEGSBO2/NOKORO |
 | Nokoro frontend | Útvonal: \\\\192.168.20.162\\c$\\spc\\nokoro_khz_frontend IIS: https://192.168.20.162:7176 |
+| Éles-teszt backend | Útvonal: \\\\192.168.20.162\\c$\\spc\\khz_elesteszt_backend IIS: http://192.168.20.162:4107 Db: JEGSBO2/KHAZ_PROD |
   
 ## Telepítési napló
 
 | Verzió | Végpont | Telepítve |
 |:-------|:--------|:----------|
+| 1.0.13.10 | Árazáshoz éles backend | 2023.02.02 |
+| 1.0.13.9b | Éles frontend | 2023.01.30 |
+| 1.0.13.9b | Éles-teszt backend | 2023.01.30 |
+| 1.0.13.9 | Éles egyedi ár modul apk | 2024.01.26 |
 | 1.0.13.8 | Éles egyedi ár modul apk | 2023.11.30 |
 | 1.0.13.7 | Éles frontend (Ez most az "Árazáshoz éles backend"-hez kapcsolódik) | 2023.11.24 |
 | 1.0.13.7 | Árazáshoz éles backend | 2023.11.24 |
