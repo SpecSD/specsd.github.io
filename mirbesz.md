@@ -23,7 +23,12 @@
 
 <br/><br/>
 
-<a href="download/com.spc.mirwh10teszt.apk" download><i>SPCMirWH TESZT <b>v10 SAP-hoz</b> v1.0.0.22 (10.10.10.41/MIRBESZ_prod - egyelőre)</i></a>
+<a href="download/com.spc.mirwh10.apk" download><i>SPCMirWH <b>v10 SAP-hoz</b> v1.0.0.23 (10.10.10.41/MIRBESZ_prod - egyelőre)</i></a>
+<div id="qrcodemirwh10" style="width:100px; height:100px; margin:25px;"></div>
+
+<br/><br/>
+
+<a href="download/com.spc.mirwh10teszt.apk" download><i>SPCMirWH TESZT <b>v10 SAP-hoz</b> v1.0.0.23 (10.10.10.41/TESZT_240227)</i></a>
 <div id="qrcodemirwhteszt10" style="width:100px; height:100px; margin:25px;"></div>
 
 <br/><br/>
@@ -41,7 +46,12 @@ var qrcodemirwhteszt = new QRCode(document.getElementById("qrcodemirwhteszt"), {
 	width  : 100,
 	height : 100
 });
-var qrcodemirwhteszt = new QRCode(document.getElementById("qrcodemirwhteszt10"), {
+var qrcodemirwh10 = new QRCode(document.getElementById("qrcodemirwh10"), {
+    text   : "https://SpecSD.github.io/download/com.spc.mirwh10.apk",
+	width  : 100,
+	height : 100
+});
+var qrcodemirwhteszt10 = new QRCode(document.getElementById("qrcodemirwhteszt10"), {
     text   : "https://SpecSD.github.io/download/com.spc.mirwh10teszt.apk",
 	width  : 100,
 	height : 100
