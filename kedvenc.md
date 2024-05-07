@@ -27,7 +27,7 @@ Kiscégek: v1.0.13.0.
   
 ### Kedvenc Egyedi ár modul (KHZ-ből készült, csak ármodulos menüpontokkal)
 
-<a href="download/com.spc.khzegyediar.apk" download>SPCKhzEgyediAr v1.0.14.4 (JEGSBO2/KHAZ_PROD)</a>
+<a href="download/com.spc.khzegyediar.apk" download>SPCKhzEgyediAr v1.0.14.8 (JEGSBO2/KHAZ_PROD)</a>
 <div id="qrcodekedvencar" style="width:100px; height:100px; margin:25px;"></div>
 
 <br/><br/>
