@@ -23,7 +23,7 @@
 
 <br/><br/>
 
-<a href="download/com.spc.mirwh10.apk" download><i>SPCMirWH <b>v10 SAP-hoz</b> v1.0.0.23 (10.10.10.41/MIRBESZ_prod - egyelőre)</i></a>
+<a href="download/com.spc.mirwh10.apk" download><i>SPCMirWH <b>v10 SAP-hoz</b> v1.0.0.24 (10.10.10.41/MIRBESZ_prod)</i></a>
 <div id="qrcodemirwh10" style="width:100px; height:100px; margin:25px;"></div>
 
 <br/><br/>
